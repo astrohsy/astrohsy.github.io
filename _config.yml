@@ -7,7 +7,7 @@ highlighter: pygments
 markdown: kramdown
 disqus: astrohsy
 google_analytics: astrohsy
-title: astrohsy
+title: Hoseung
 
 defaults:
   -
@@ -16,9 +16,9 @@ defaults:
     values:
       title: Building
 
-description: Stylish Jekyll Theme
+description: 여러 정보들이 있는 블로그
 author:
-  name: Hoseung
+  name: Hoseung Lee
   email: astrohsy@gmail.com
   github: astrohsy
   twitter: none
