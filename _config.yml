@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: astrohsygithub
-google_analytics: astrohsy
+google_analytics: UA-83940429-1
 title: Hoseung
 
 defaults:
