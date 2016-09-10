@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Building
+      title: 이제 막 시작한 블로그
 
 description: 여러 정보들이 있는 블로그
 author:
