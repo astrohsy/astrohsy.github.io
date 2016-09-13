@@ -1,7 +1,59 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
+@font-face {
+	font-family: "nanum";
+	src: url('../NanumGothic.ttf');
+}
+
+@font-face {
+	font-family: "nanumbold";
+	src: url('../NanumGothicExtraBold.ttf');
+}
+
+
 body{
 	color: #2c3e50;
+}
+
+.scpc1 {
+	border: 1px solid #3e2b14;
+  	padding: 10px;
+	float : left;
+	margin-top : 35px;
+	margin-bottom : 70px;
+	transform: rotate(90deg);
+	text-align: center;
+	width : 300px;
+}
+
+.scpc2 {
+	border: 1px solid #3e2b14;
+  	padding: 10px;
+	float : left;
+	text-align: center;
+	width : 320px;
+}
+
+.scpc3 {
+	border: 1px solid #3e2b14;
+  	padding: 10px;
+	float : right;
+	text-align: center;
+	width : 400px;
+}
+
+.postsub {
+	font-family : nanumbold;
+	font-size : 20px;
+}
+
+.postwrite {
+	font-family : nanum;
+	font-size : 14px;
+}
+
+.clearfloat {
+	clear:both;
 }
 
 .sidebar {
@@ -188,4 +240,3 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
-
