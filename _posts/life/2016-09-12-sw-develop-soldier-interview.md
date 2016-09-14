@@ -1,5 +1,4 @@
 ---
-layout: post
 title: SW개발병, 소프트웨어개발병 면접 후기
 categories: [Life]
 tags: [군인, sw개발병, 면접]

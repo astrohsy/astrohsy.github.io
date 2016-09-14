@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -23,13 +22,3 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 group :jekyll_plugins do
   # gem "jekyll-archives"
 end
-=======
-source 'https://rubygems.org'
-	gem 'jekyll'
-
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "pygments.rb"
-end
-
->>>>>>> f68d7c1adfd49ef9c23b35f588ecca3cae8e5578
