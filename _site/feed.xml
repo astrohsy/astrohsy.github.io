@@ -3,10 +3,10 @@
   <channel>
     <title>Shooting Bugs</title>
     <description>학생으로서 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다..</description>
-    <link>https://astrohsy.github.io/</link>
-    <atom:link href="https://astrohsy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2016 01:08:55 +0900</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 01:08:55 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Sep 2016 01:24:09 +0900</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2016 01:24:09 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -46,8 +46,8 @@
 &lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Sep 2016 00:00:00 +0900</pubDate>
-        <link>https://astrohsy.github.io/contest/scpc2016/</link>
-        <guid isPermaLink="true">https://astrohsy.github.io/contest/scpc2016/</guid>
+        <link>http://localhost:4000/contest/scpc2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/contest/scpc2016/</guid>
         
         <category>scpc</category>
         
@@ -94,8 +94,8 @@
 면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Sep 2016 00:00:00 +0900</pubDate>
-        <link>https://astrohsy.github.io/life/sw-develop-soldier-interview/</link>
-        <guid isPermaLink="true">https://astrohsy.github.io/life/sw-develop-soldier-interview/</guid>
+        <link>http://localhost:4000/life/sw-develop-soldier-interview/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/sw-develop-soldier-interview/</guid>
         
         <category>군인</category>
         
@@ -151,8 +151,8 @@
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 +0900</pubDate>
-        <link>https://astrohsy.github.io/algorithm/gcd/</link>
-        <guid isPermaLink="true">https://astrohsy.github.io/algorithm/gcd/</guid>
+        <link>http://localhost:4000/algorithm/gcd/</link>
+        <guid isPermaLink="true">http://localhost:4000/algorithm/gcd/</guid>
         
         <category>gcd</category>
         
@@ -178,8 +178,8 @@ Stack은 가장 기본적이고 널리 쓰이고 있는 자료구조이다.
 &lt;p&gt;2.구현&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
-        <link>https://astrohsy.github.io/data%20structure/stack/</link>
-        <guid isPermaLink="true">https://astrohsy.github.io/data%20structure/stack/</guid>
+        <link>http://localhost:4000/data%20structure/stack/</link>
+        <guid isPermaLink="true">http://localhost:4000/data%20structure/stack/</guid>
         
         <category>Stack</category>
         
