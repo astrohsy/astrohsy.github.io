@@ -227,3 +227,45 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+=======
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: astrohsygithub
+google_analytics: UA-83940429-1
+title: Hoseung
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Mistake Reports
+
+description: 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다..
+author:
+  name: Hoseung Lee
+  email: astrohsy@gmail.com
+  github: astrohsy
+  twitter: none
+  pinterest: asd123
+  linkedin: astrohsy
+  bio: 알고리즘과 웹개발에 흥미가 있는 열정적인 학생 개발자
+  email_md5: c564650bc77b62534645c7676f702cc8
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
+>>>>>>> f68d7c1adfd49ef9c23b35f588ecca3cae8e5578
