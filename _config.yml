@@ -34,6 +34,7 @@ title                    : "Shooting Bugs"
 title_separator          : "-"
 name                     : "Hoseung"
 description              : "학생으로서 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다.."
+#url: 'http://localhost:4000'
 url                      : "https://astrohsy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
