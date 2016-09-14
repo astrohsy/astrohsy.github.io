@@ -14,9 +14,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: 이제 막 시작한 블로그
+      title: Mistake Reports
 
-description: 여러 정보들이 있는 블로그
+description: 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다..
 author:
   name: Hoseung Lee
   email: astrohsy@gmail.com
