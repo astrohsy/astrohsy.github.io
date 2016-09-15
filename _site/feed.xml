@@ -5,9 +5,20 @@
     <description>학생으로서 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다..</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2016 01:24:09 +0900</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 01:24:09 +0900</lastBuildDate>
+    <pubDate>Thu, 15 Sep 2016 16:01:23 +0900</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2016 16:01:23 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Dynamic Programming 1</title>
+        <description>
+</description>
+        <pubDate>Thu, 15 Sep 2016 15:32:57 +0900</pubDate>
+        <link>http://localhost:4000/dynamic-programming-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/dynamic-programming-1/</guid>
+        
+        
+      </item>
     
       <item>
         <title>제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기</title>
