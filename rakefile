@@ -4,5 +4,5 @@ end
 
 desc 'Jekyll Serve'
 task :serve do
-  execute("bundle exec jekyll serve --config _config.yml,_config_dev.yml")
+  execute("bundle exec jekyll serve --config _config.yml,_config_dev.yml --draft")
 end
