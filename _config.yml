@@ -248,3 +248,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+exclude:
+  - node_modules
