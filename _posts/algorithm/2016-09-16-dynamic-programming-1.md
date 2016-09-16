@@ -1,5 +1,4 @@
 ---
-layout : single
 title: 동적계획법(Dynamic Programming) 시작하기1
 categories: [Algorithm]
 tags: [dynamic programming]

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shooting Bugs</title>
+    <title>ShootingBugs</title>
     <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Sep 2016 18:07:28 +0900</pubDate>
-    <lastBuildDate>Fri, 16 Sep 2016 18:07:28 +0900</lastBuildDate>
+    <pubDate>Sat, 17 Sep 2016 01:15:26 +0900</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 01:15:26 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>

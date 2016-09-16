@@ -9,16 +9,14 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comment: true
       share: true
       related: true
-
-defaults:
   # _pages
   - scope:
       path: ""
@@ -29,7 +27,7 @@ defaults:
 
 # Site Settings
 locale                   : "ko"
-title                    : "Shooting Bugs"
+title                    : "ShootingBugs"
 title_separator          : "-"
 name                     : "Hoseung"
 description              : "참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다."
