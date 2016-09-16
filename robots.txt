@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.saltfactory.net/sitemap.xml
+Sitemap: http://blog.astrohsy.com/etc/sitemap.xml
