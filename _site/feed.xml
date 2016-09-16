@@ -2,23 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shooting Bugs</title>
-    <description>학생으로서 개발하면서 참가하게 된 대회들과 간단한 알고리즘에 대한 내용들을 올릴 생각입니다..</description>
+    <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2016 16:01:23 +0900</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 16:01:23 +0900</lastBuildDate>
+    <pubDate>Fri, 16 Sep 2016 16:28:53 +0900</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2016 16:28:53 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Dynamic Programming 1</title>
-        <description>
-</description>
-        <pubDate>Thu, 15 Sep 2016 15:32:57 +0900</pubDate>
-        <link>http://localhost:4000/dynamic-programming-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/dynamic-programming-1/</guid>
-        
-        
-      </item>
     
       <item>
         <title>제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기</title>
@@ -187,6 +176,10 @@ Stack은 가장 기본적이고 널리 쓰이고 있는 자료구조이다.
 처음에 넣은 것은 마지막에 돌려주는 Last in First Out 즉, LIFO의 특성을 가진다.&lt;/p&gt;
 
 &lt;p&gt;2.구현&lt;/p&gt;
+
+&lt;p&gt;작성중————–&lt;/p&gt;
+
+&lt;p&gt;3.스택 문제들&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/data%20structure/stack/</link>
