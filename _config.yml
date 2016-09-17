@@ -27,7 +27,7 @@ defaults:
 
 # Site Settings
 locale                   : "ko"
-title                    : "Astrohsy's blog"
+title                    : "ShootingBugs"
 title_separator          : "-"
 name                     : "Hoseung"
 description              : "참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다."
