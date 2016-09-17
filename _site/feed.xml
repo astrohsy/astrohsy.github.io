@@ -3,10 +3,10 @@
   <channel>
     <title>ShootingBugs</title>
     <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Sep 2016 02:53:23 +0900</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2016 02:53:23 +0900</lastBuildDate>
+    <link>http://blog.astrohsy.com/</link>
+    <atom:link href="http://blog.astrohsy.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 17 Sep 2016 11:33:50 +0900</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 11:33:50 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -92,8 +92,8 @@
 &lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/dynamic-programming-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/dynamic-programming-1/</guid>
+        <link>http://blog.astrohsy.com/algorithm/dynamic-programming-1/</link>
+        <guid isPermaLink="true">http://blog.astrohsy.com/algorithm/dynamic-programming-1/</guid>
         
         <category>dynamic programming</category>
         
@@ -135,8 +135,8 @@
 &lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/contest/scpc2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/contest/scpc2016/</guid>
+        <link>http://blog.astrohsy.com/contest/scpc2016/</link>
+        <guid isPermaLink="true">http://blog.astrohsy.com/contest/scpc2016/</guid>
         
         <category>scpc</category>
         
@@ -183,8 +183,8 @@
 면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/sw-develop-soldier-interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/sw-develop-soldier-interview/</guid>
+        <link>http://blog.astrohsy.com/life/sw-develop-soldier-interview/</link>
+        <guid isPermaLink="true">http://blog.astrohsy.com/life/sw-develop-soldier-interview/</guid>
         
         <category>군인</category>
         
@@ -230,8 +230,8 @@
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/gcd/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/gcd/</guid>
+        <link>http://blog.astrohsy.com/algorithm/gcd/</link>
+        <guid isPermaLink="true">http://blog.astrohsy.com/algorithm/gcd/</guid>
         
         <category>gcd</category>
         
@@ -262,8 +262,8 @@ Stack은 가장 기본적이고 널리 쓰이고 있는 자료구조이다.
 &lt;p&gt;3.스택 문제들&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/data%20structure/stack/</link>
-        <guid isPermaLink="true">http://localhost:4000/data%20structure/stack/</guid>
+        <link>http://blog.astrohsy.com/data%20structure/stack/</link>
+        <guid isPermaLink="true">http://blog.astrohsy.com/data%20structure/stack/</guid>
         
         <category>Stack</category>
         
