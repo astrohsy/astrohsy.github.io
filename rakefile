@@ -7,6 +7,11 @@ task :serve do
   execute("bundle exec jekyll serve --config _config.yml,_config_dev.yml --draft")
 end
 
+task :new do
+    execute("bundle exec jekyll serve")
+end
+
+
 task :push do
     execute("git push origin gh-pages")
 end

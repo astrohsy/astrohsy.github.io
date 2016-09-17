@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://blog.astrohsy.com/algorithm/dynamic-programming-1/</loc>
+<lastmod>2016-09-16T00:00:00+09:00</lastmod>
+</url>
+<url>
 <loc>http://blog.astrohsy.com/contest/scpc2016/</loc>
 <lastmod>2016-09-13T00:00:00+09:00</lastmod>
 </url>
@@ -13,16 +17,19 @@
 <lastmod>2016-09-10T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://blog.astrohsy.com/data%2520structure/stack/</loc>
+<loc>http://blog.astrohsy.com/datastructure/stack/</loc>
 <lastmod>2016-09-08T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://blog.astrohsy.com/categories/</loc>
+<loc>http://blog.astrohsy.com/about</loc>
+</url>
+<url>
+<loc>http://blog.astrohsy.com/categories</loc>
 </url>
 <url>
 <loc>http://blog.astrohsy.com/</loc>
 </url>
 <url>
-<loc>http://blog.astrohsy.com/tags/</loc>
+<loc>http://blog.astrohsy.com/tags</loc>
 </url>
 </urlset>
