@@ -8,47 +8,57 @@
 
 <url>
   <loc>http://blog.astrohsy.com/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/categories</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/tags</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/about</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://blog.astrohsy.com/github/githubintro/</loc>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/algorithm/dynamic-programming-1/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/contest/scpc2016/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/life/sw-develop-soldier-interview/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/algorithm/gcd/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://blog.astrohsy.com/page2/</loc>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://blog.astrohsy.com/datastructure/stack/</loc>
-  <lastmod>2016-09-17T02:46:19+00:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2016-09-17T06:11:42+00:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 </urlset>
