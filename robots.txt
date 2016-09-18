@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://blog.astrohsy.com/etc/sitemap.xml
+Sitemap: http://astrohsy.com/etc/sitemap.xml
