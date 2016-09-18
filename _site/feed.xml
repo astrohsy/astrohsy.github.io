@@ -3,10 +3,10 @@
   <channel>
     <title>ShootingBugs</title>
     <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Sep 2016 23:53:41 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Sep 2016 23:53:41 +0900</lastBuildDate>
+    <link>http://astrohsy.com/</link>
+    <atom:link href="http://astrohsy.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Sep 2016 23:56:13 +0900</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 23:56:13 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -77,12 +77,14 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
     &lt;span class=&quot;c1&quot;&gt;//다음 코드&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;p&gt;— 작성중 —&lt;/p&gt;
+
 &lt;h3 id=&quot;section&quot;&gt;출처&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/the-beginners-guide-to-three-js&quot;&gt;TreeHouse&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 18 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/webgl/threejs-intro-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/webgl/threejs-intro-1/</guid>
+        <link>http://astrohsy.com/webgl/threejs-intro-1/</link>
+        <guid isPermaLink="true">http://astrohsy.com/webgl/threejs-intro-1/</guid>
         
         <category>threejs</category>
         
@@ -161,8 +163,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/github/githubintro/</link>
-        <guid isPermaLink="true">http://localhost:4000/github/githubintro/</guid>
+        <link>http://astrohsy.com/github/githubintro/</link>
+        <guid isPermaLink="true">http://astrohsy.com/github/githubintro/</guid>
         
         <category>github</category>
         
@@ -256,8 +258,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/dynamic-programming-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/dynamic-programming-1/</guid>
+        <link>http://astrohsy.com/algorithm/dynamic-programming-1/</link>
+        <guid isPermaLink="true">http://astrohsy.com/algorithm/dynamic-programming-1/</guid>
         
         <category>dynamic programming</category>
         
@@ -293,8 +295,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/contest/scpc2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/contest/scpc2016/</guid>
+        <link>http://astrohsy.com/contest/scpc2016/</link>
+        <guid isPermaLink="true">http://astrohsy.com/contest/scpc2016/</guid>
         
         <category>scpc</category>
         
@@ -341,8 +343,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/sw-develop-soldier-interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/sw-develop-soldier-interview/</guid>
+        <link>http://astrohsy.com/life/sw-develop-soldier-interview/</link>
+        <guid isPermaLink="true">http://astrohsy.com/life/sw-develop-soldier-interview/</guid>
         
         <category>군인</category>
         
@@ -388,8 +390,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/gcd/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/gcd/</guid>
+        <link>http://astrohsy.com/algorithm/gcd/</link>
+        <guid isPermaLink="true">http://astrohsy.com/algorithm/gcd/</guid>
         
         <category>gcd</category>
         
@@ -488,8 +490,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1874&quot;&gt;1874번 스택수열&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/datastructure/stack/</link>
-        <guid isPermaLink="true">http://localhost:4000/datastructure/stack/</guid>
+        <link>http://astrohsy.com/datastructure/stack/</link>
+        <guid isPermaLink="true">http://astrohsy.com/datastructure/stack/</guid>
         
         <category>Stack</category>
         
