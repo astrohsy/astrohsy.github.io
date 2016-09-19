@@ -30,7 +30,7 @@ description: 웹에서 그래픽을 보여주는데 쓰이는 WebGL을 threejs�
 
 ## Scene 만들기
 `Three.js`에서는 `scene` 개념을 정의했다. `scene`은 우리가 넣고자 객체(`Camera`, `Geometry`, `Lights`...) 하는 곳의 위치를 정의하는 것이다.
-그리고 이미지를 보여줄 화면의 크기를 구하기 위해서 brower의 window의 크기는 `WIDTH`와 `HEIGHT`에 저장한다.
+그리고 이미지를 보여줄 화면의 크기를 구하기 위해서 browser의 window의 크기는 `WIDTH`와 `HEIGHT`에 저장한다.
 
 {% highlight javascript %}
 function init() {
