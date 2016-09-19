@@ -140,5 +140,8 @@ function init() {
 }
 {% endhighlight %}
 
-### 출처
+## 출처
 [TreeHouse](http://blog.teamtreehouse.com/the-beginners-guide-to-three-js)
+
+## 기타
+다음 글에서는 다른 예제를 번역해보도록 하겠다.
