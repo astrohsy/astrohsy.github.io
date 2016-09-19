@@ -1,5 +1,5 @@
 ---
-title: threejs로 시작하는 WebGL - 1
+title: Three.js로 시작하는 WebGL - 1
 categories: [WebGL]
 tags: [threejs, webgl]
 description: 웹에서 그래픽을 보여주는데 쓰이는 WebGL을 threejs를 이용해서 Graphic을 웹에 그려보다. teamtreehouse의 튜토리얼을 따라해보자.
@@ -10,9 +10,9 @@ description: 웹에서 그래픽을 보여주는데 쓰이는 WebGL을 threejs�
 [ㅅ샘플코드](http://treehouse-code-samples.s3.amazonaws.com/threejs_logo_example/threejs_logo_example.zip);
 
 ## 설치 및 HTML파일 생성
-우선 three.js를 사용하기 위해서 다운로드를 받아야한다. (http://threejs.org/) 에서 다운을 받고, 다운 받을 폴더를 작업하고자 하는 폴더안에 삽입한다. 다운 받은 폴더 안에 build폴더와 example 폴더가 있을 것이다. 편의를 위해서 나같은 경우 각 폴더의 파일들을 js폴더를 만들어서 넣었다. 그래서 여기에 작성된 코드들은 js폴더가 있다는 가정하에 작성하겠다.
+우선 `Three.js`를 사용하기 위해서 다운로드를 받아야한다. (http://threejs.org/) 에서 다운을 받고, 다운 받을 폴더를 작업하고자 하는 폴더안에 삽입한다. 다운 받은 폴더 안에 build폴더와 example 폴더가 있을 것이다. 편의를 위해서 나같은 경우 각 폴더의 파일들을 js폴더를 만들어서 넣었다. 그래서 여기에 작성된 코드들은 js폴더가 있다는 가정하에 작성하겠다.
 
- 그러면 프로젝트 폴더안에 index.html 파일을 다음과 같이 만든다.
+ 그러면 프로젝트 폴더안에 `index.html` 파일을 다음과 같이 만든다.
 
 {% highlight html %}
 <!doctype html>
@@ -29,8 +29,8 @@ description: 웹에서 그래픽을 보여주는데 쓰이는 WebGL을 threejs�
 {% endhighlight %}
 
 ## Scene 만들기
-Three.js에서는 ___scene___ 개념을 정의했다. ___scene___은 우리가 넣고자 객체(Camera, Geometry, Lights...) 하는 곳의 위치를 정의하는 것이다.
-그리고 brower의 window의 크기는 __WIDTH__와 __HEIGHT__에 저장한다.
+`Three.js`에서는 `scene` 개념을 정의했다. `scene`은 우리가 넣고자 객체(`Camera`, `Geometry`, `Lights`...) 하는 곳의 위치를 정의하는 것이다.
+그리고 이미지를 보여줄 화면의 크기를 구하기 위해서 brower의 window의 크기는 `WIDTH`와 `HEIGHT`에 저장한다.
 
 {% highlight javascript %}
 function init() {
