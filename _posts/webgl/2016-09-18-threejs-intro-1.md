@@ -18,6 +18,9 @@ description: 웹에서 그래픽을 보여주는데 쓰이는 WebGL을 threejs�
 <script src ="js/three.min.js"></script>
 <script src ="js/orbitControls.js"></script>
 <script>
+    var scene, camera, renderer;
+    init();
+    animate();
     <!-- 여기에는 3D 코드 작성 -->
 </script>
 </html>
@@ -32,7 +35,7 @@ function init() {
 
     scene = new THREE.Scene();
     var WIDTH = window.innerWidth;
-    var HIEGHT = wndwo.innerHeight;
+    var HEIGHT = wndwo.innerHeight;
 }
 {% endhighlight %}
 
