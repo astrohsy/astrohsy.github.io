@@ -3,40 +3,81 @@
   <channel>
     <title>ShootingBugs</title>
     <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
-    <link>http://astrohsy.com/</link>
-    <atom:link href="http://astrohsy.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Sep 2016 23:56:13 +0900</pubDate>
-    <lastBuildDate>Sun, 18 Sep 2016 23:56:13 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Sep 2016 16:16:12 +0900</pubDate>
+    <lastBuildDate>Wed, 21 Sep 2016 16:16:12 +0900</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>threejs로 시작하는 WebGL - 1</title>
+        <title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1</title>
+        <description>&lt;p&gt;최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.&lt;/p&gt;
+
+&lt;h2 id=&quot;gpu&quot;&gt;GPU&lt;/h2&gt;
+&lt;p&gt;그래픽카드는 그래픽을 실제 출력장치에 그려주는 역할을 한다. 하지만 출력장치의 하나 하나의
+ Pixel에 대해서 그래픽을 매칭시켜야 하기 때문에 디스플레이 기술이 발전할 수록 그래픽카드는 발전하였다. 그리고 그 그래픽카드에서 그래픽 처리를 하는 장치를  &lt;code class=&quot;highlighter-rouge&quot;&gt;GPU&lt;/code&gt; 라고 한다.
+ 많은 연산을 필요로하는 그래픽을 처리하는 &lt;code class=&quot;highlighter-rouge&quot;&gt;GPU&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;CPU&lt;/code&gt;와 구조가 많이 다르다. 아래 사진을 보면 명확하기 확인할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8258/29792623136_23e4bd3294_b.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GPU가 CPU보다 엄청나게 많은 량의 ALU를 가지고 있는 것을 알 수 있다. CPU는 순차(Sequantial)적인 프로그램을 실행할 때는 좋은 성능을 발휘하지만, 대용량 처리에는 약하다. 그래서 GPU의 수많은 core들에 thread를 돌리면 데이터를 CPU보다 훨씬 빨리 처리할 수 있게 된다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;예를 들자면 n x n 의 matrix가 있다고 하면 이 matrix의 합을 구할 때는 보통 컴퓨터로는 O(n^2)이라는 시간이 소요된다. 하지만, n x n core를 가진 GPU로 병렬 프로그래밍을 하게 된다면 이 연산이 O(1) 시간만에 끝나게 된다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;왜 최근에 들어 병렬 프로그래밍이 관심을 받고 있나?&lt;/h2&gt;
+&lt;p&gt;이유는 간단하다. 빅데이터의 시대와 고품질 멀티미디어의 세계가 시작되면서 대용량 데이터에 대한 처리의 중요성이 커져서 그렇다.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;병렬 프로그래밍 시작&lt;/h2&gt;
+&lt;p&gt;하지만 이 강력한 병렬 컴퓨팅도 병렬 프로그래밍을 할 줄 모른다면 아무 의미가 없다. 그래서 NDIVIA의 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA(Compute Unified Device Architecture)&lt;/code&gt;를 공부하면서 병렬 프로그래밍을 공부하고자 한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt;에 좀 익숙해지면 &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;도 해볼 생각이다.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Sep 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/parallel/intro-to-parallel-programming/</link>
+        <guid isPermaLink="true">http://localhost:4000/parallel/intro-to-parallel-programming/</guid>
+        
+        <category>parallel</category>
+        
+        <category>cuda</category>
+        
+        
+        <category>Parallel</category>
+        
+      </item>
+    
+      <item>
+        <title>Three.js로 시작하는 WebGL - 1</title>
         <description>&lt;p&gt;나는 프로젝트에서 3D 모델 stl파일을 웹에서 보여주는 작업을 해야하기 때문에 threejs를 배우기 시작하였다. 이제 threejs 관련 몇몇 글을 번역하면서
 배운다는 생각으로 글도 포스팅 해 볼생각이다.&lt;/p&gt;
 
-&lt;h2 id=&quot;html-&quot;&gt;설치 및 HTML파일 생성&lt;/h2&gt;
-&lt;p&gt;우선 three.js를 사용하기 위해서 다운로드를 받아야한다. (http://threejs.org/) 에서 다운을 받고, 다운 받을 폴더를 작업하고자 하는 폴더안에 삽입한다. 다운 받은 폴더 안에 build폴더와 example 폴더가 있을 것이다. 편의를 위해서 나같은 경우 각 폴더의 파일들을 js폴더를 만들어서 넣었다. 그래서 여기에 작성된 코드들은 js폴더가 있다는 가정하에 작성하겠다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://treehouse-code-samples.s3.amazonaws.com/threejs_logo_example/threejs_logo_example.zip&quot;&gt;ㅅ샘플코드&lt;/a&gt;;&lt;/p&gt;
 
-&lt;p&gt;그러면 프로젝트 폴더안에 index.html 파일을 다음과 같이 만든다.&lt;/p&gt;
+&lt;h2 id=&quot;html-&quot;&gt;설치 및 HTML파일 생성&lt;/h2&gt;
+&lt;p&gt;우선 &lt;code class=&quot;highlighter-rouge&quot;&gt;Three.js&lt;/code&gt;를 사용하기 위해서 다운로드를 받아야한다. (http://threejs.org/) 에서 다운을 받고, 다운 받을 폴더를 작업하고자 하는 폴더안에 삽입한다. 다운 받은 폴더 안에 build폴더와 example 폴더가 있을 것이다. 편의를 위해서 나같은 경우 각 폴더의 파일들을 js폴더를 만들어서 넣었다. 그래서 여기에 작성된 코드들은 js폴더가 있다는 가정하에 작성하겠다.&lt;/p&gt;
+
+&lt;p&gt;그러면 프로젝트 폴더안에 &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; 파일을 다음과 같이 만든다.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src =&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;js/three.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src =&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;js/orbitControls.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;renderer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;animate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
     &lt;span class=&quot;c&quot;&gt;&amp;lt;!--&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;여기에는&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;코드&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;작성&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;scene-&quot;&gt;Scene 만들기&lt;/h2&gt;
-&lt;p&gt;Three.js에서는 &lt;strong&gt;&lt;em&gt;scene&lt;/em&gt;&lt;/strong&gt; 개념을 정의했다. __&lt;em&gt;scene&lt;/em&gt;__은 우리가 넣고자 객체(Camera, Geometry, Lights…) 하는 곳의 위치를 정의하는 것이다.
-그리고 brower의 window의 크기는 __WIDTH__와 __HEIGHT__에 저장한다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Three.js&lt;/code&gt;에서는 &lt;code class=&quot;highlighter-rouge&quot;&gt;scene&lt;/code&gt; 개념을 정의했다. &lt;code class=&quot;highlighter-rouge&quot;&gt;scene&lt;/code&gt;은 우리가 넣고자 객체(&lt;code class=&quot;highlighter-rouge&quot;&gt;Camera&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Geometry&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Lights&lt;/code&gt;…) 하는 곳의 위치를 정의하는 것이다.
+그리고 이미지를 보여줄 화면의 크기를 구하기 위해서 browser의 window의 크기는 &lt;code class=&quot;highlighter-rouge&quot;&gt;WIDTH&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;HEIGHT&lt;/code&gt;에 저장한다.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 
     &lt;span class=&quot;nx&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;THREE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
     &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;WIDTH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerWidth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HIEGHT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;wndwo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;HEIGHT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;wndwo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;render-&quot;&gt;Render 만들기&lt;/h2&gt;
@@ -77,14 +118,70 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
     &lt;span class=&quot;c1&quot;&gt;//다음 코드&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;— 작성중 —&lt;/p&gt;
+&lt;h2 id=&quot;lighting-&quot;&gt;Lighting 추가&lt;/h2&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;출처&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PointLight&lt;/code&gt; 객체를 &lt;code class=&quot;highlighter-rouge&quot;&gt;Scene&lt;/code&gt;에 추가를 해야하만 우리가 추가한 3D Object를 볼 수 있도록 된다.(Light는 사방을 비춘다.) &lt;code class=&quot;highlighter-rouge&quot;&gt;PointLight&lt;/code&gt;는 다음 과 같은 Parameter를 같는다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;color&lt;/code&gt; - Light의 RGB값의 16진수 표현&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;intensity&lt;/code&gt; - Light의 세기&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;distance&lt;/code&gt; - Light의 길이&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;decay&lt;/code&gt; - Light가 가면서 어두어지는 정도&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//이전 코드&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// scene의 배경 색&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;renderer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setClearColor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0x333F47&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;THREE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PointLight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mh&quot;&gt;0xffffff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//다음 코드&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;controls-&quot;&gt;Controls 추가&lt;/h2&gt;
+
+&lt;p&gt;이 Controls는 처음에 &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;에 추가한 &lt;code class=&quot;highlighter-rouge&quot;&gt;orbit controls&lt;/code&gt; 안의 함수이다.
+반드시 해야하는 것은 아니지만, 이는 우리가 마우스 조작으로 &lt;code class=&quot;highlighter-rouge&quot;&gt;Mesh&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;Orbit&lt;/code&gt;을 조작할 수 있게 해준다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//이전 코드&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;controls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;THREE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;OrbitControls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;renderer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;domElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//다음 코드&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;scene-render&quot;&gt;Scene Render하기&lt;/h2&gt;
+
+&lt;p&gt;초기화 함수를 &lt;code class=&quot;highlighter-rouge&quot;&gt;init()&lt;/code&gt;을 실행하고 난 다음, 애니메이션 함수인 ‘animation()’을 실행 시켜야한다. 왜냐하면, 위의 &lt;code class=&quot;highlighter-rouge&quot;&gt;Controls&lt;/code&gt;에서 추가한 조작을 할 때마다 새로 &lt;code class=&quot;highlighter-rouge&quot;&gt;Mesh&lt;/code&gt;를 다시 &lt;code class=&quot;highlighter-rouge&quot;&gt;Render&lt;/code&gt;를 해주어야 하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;requestAnimationFrame()&lt;/code&gt; 함수는 여러 장점이 있지만, 불필요하게 다시 애니메이션을 그리는 일을 방지해주는 기능을 한다. 이 함수를 재귀 구조로 돌리면서 다시 &lt;code class=&quot;highlighter-rouge&quot;&gt;Mesh&lt;/code&gt;를 그려준다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//이전 코드&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;requestAnimationFrame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;animate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Render The Scene&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;renderer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;controls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;출처&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/the-beginners-guide-to-three-js&quot;&gt;TreeHouse&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;기타&lt;/h2&gt;
+&lt;p&gt;다음 글에서는 다른 예제를 번역해보도록 하겠다.&lt;/p&gt;
 </description>
         <pubDate>Sun, 18 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/webgl/threejs-intro-1/</link>
-        <guid isPermaLink="true">http://astrohsy.com/webgl/threejs-intro-1/</guid>
+        <link>http://localhost:4000/webgl/threejs-intro-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/webgl/threejs-intro-1/</guid>
         
         <category>threejs</category>
         
@@ -163,8 +260,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;
 </description>
         <pubDate>Sat, 17 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/github/githubintro/</link>
-        <guid isPermaLink="true">http://astrohsy.com/github/githubintro/</guid>
+        <link>http://localhost:4000/github/githubintro/</link>
+        <guid isPermaLink="true">http://localhost:4000/github/githubintro/</guid>
         
         <category>github</category>
         
@@ -258,8 +355,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/algorithm/dynamic-programming-1/</link>
-        <guid isPermaLink="true">http://astrohsy.com/algorithm/dynamic-programming-1/</guid>
+        <link>http://localhost:4000/algorithm/dynamic-programming-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/algorithm/dynamic-programming-1/</guid>
         
         <category>dynamic programming</category>
         
@@ -295,8 +392,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/contest/scpc2016/</link>
-        <guid isPermaLink="true">http://astrohsy.com/contest/scpc2016/</guid>
+        <link>http://localhost:4000/contest/scpc2016/</link>
+        <guid isPermaLink="true">http://localhost:4000/contest/scpc2016/</guid>
         
         <category>scpc</category>
         
@@ -343,8 +440,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/life/sw-develop-soldier-interview/</link>
-        <guid isPermaLink="true">http://astrohsy.com/life/sw-develop-soldier-interview/</guid>
+        <link>http://localhost:4000/life/sw-develop-soldier-interview/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/sw-develop-soldier-interview/</guid>
         
         <category>군인</category>
         
@@ -390,8 +487,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 
 </description>
         <pubDate>Sat, 10 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/algorithm/gcd/</link>
-        <guid isPermaLink="true">http://astrohsy.com/algorithm/gcd/</guid>
+        <link>http://localhost:4000/algorithm/gcd/</link>
+        <guid isPermaLink="true">http://localhost:4000/algorithm/gcd/</guid>
         
         <category>gcd</category>
         
@@ -490,8 +587,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1874&quot;&gt;1874번 스택수열&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://astrohsy.com/datastructure/stack/</link>
-        <guid isPermaLink="true">http://astrohsy.com/datastructure/stack/</guid>
+        <link>http://localhost:4000/datastructure/stack/</link>
+        <guid isPermaLink="true">http://localhost:4000/datastructure/stack/</guid>
         
         <category>Stack</category>
         
