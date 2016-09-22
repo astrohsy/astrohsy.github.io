@@ -32,7 +32,7 @@ description: 기본적인 1~2차원 다이나믹 프로그래밍에 대한 설�
 
 이 식을 반복문을 이용한 동적계획법으로 풀면 다음과 같다.
 
-{% highlgiht c++ %}
+{% highlight c %}
 #include <cstdio>
 
 int n, stair[301], dp[301][3];

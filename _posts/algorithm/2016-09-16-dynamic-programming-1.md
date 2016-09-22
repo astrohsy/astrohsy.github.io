@@ -1,5 +1,5 @@
 ---
-title: 동적계획법(Dynamic Programming) 시작하기 - 1
+title: 동적계획법(Dynamic Programming) 시작하기 - 21
 categories: [Algorithm]
 tags: [dynamic programming]
 description: 피보나치 수열, 제일 기본적인 동적 계획법에 대한 설명
