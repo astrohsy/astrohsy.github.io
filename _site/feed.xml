@@ -1,35 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ShootingBugs</title>
-    <description>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 22 Sep 2016 20:55:22 +0900</pubDate>
-    <lastBuildDate>Thu, 22 Sep 2016 20:55:22 +0900</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>daily tab 시작</title>
-        <description>&lt;p&gt;데일리 탭을 만들었다.. 간단하게 나의 일상에 관한 이야기들을 포스트을 할 탭이다.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 22 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/daily/daily-tab-open/</link>
-        <guid isPermaLink="true">http://localhost:4000/daily/daily-tab-open/</guid>
-        
-        <category>daily</category>
-        
-        
-        <category>daily</category>
-        
-      </item>
-    
-      <item>
-        <title>동적계획법(Dynamic Programming) 시작하기 - 2</title>
-        <description>&lt;p&gt;다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://astrohsy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://astrohsy.com/" rel="alternate" type="text/html" /><updated>2016-09-24T17:23:39+09:00</updated><id>http://astrohsy.com/</id><title>ShootingBugs</title><subtitle>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</subtitle><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><entry><title>동적계획법(Dynamic Programming) - 입문</title><link href="http://astrohsy.com/algorithm/dynamic-programming-2/" rel="alternate" type="text/html" title="동적계획법(Dynamic Programming) - 입문" /><published>2016-09-22T00:00:00+09:00</published><updated>2016-09-22T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/dynamic-programming-2</id><content type="html" xml:base="http://astrohsy.com/algorithm/dynamic-programming-2/">&lt;p&gt;다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;계단오르기&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/2579&quot;&gt;2579번 계단오르기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;### &lt;a href=&quot;https://www.acmicpc.net/problem/2579&quot;&gt;2579번 계단오르기&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;우선, 이 문제의 설명을 보면 다음과 같은 제약들이 있다.&lt;/p&gt;
 
@@ -79,21 +51,43 @@
     &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]));&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-</description>
-        <pubDate>Thu, 22 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/dynamic-programming-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/dynamic-programming-2/</guid>
-        
-        <category>dynamic programming</category>
-        
-        
-        <category>Algorithm</category>
-        
-      </item>
-    
-      <item>
-        <title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1</title>
-        <description>&lt;p&gt;최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.&lt;/p&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;1로 만들기&lt;/h2&gt;
+&lt;p&gt;### &lt;a href=&quot;https://www.acmicpc.net/problem/1463&quot;&gt;1463번 1로 만들기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;어떤 숫자 &lt;code class=&quot;highlighter-rouge&quot;&gt;X&lt;/code&gt;가 주어져 있을 때, 1로 만드는 최소의 연산 횟수를 구하는 문제이다.
+이 문제 같은 경우의 조건은 다음과 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;X가 3으로 나누어 떨어지면, 3으로 나눈다.&lt;/li&gt;
+  &lt;li&gt;X가 2로 나누어 떨어지면, 2로 나눈다.&lt;/li&gt;
+  &lt;li&gt;1을 뺀다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 문제도 한 번 곰곰히 어떻게 접근해야할지 생각해본다.&lt;/p&gt;
+
+&lt;p&gt;이 경우 해당 숫자에 대해서 계속 최소값으로 갱신시키면 된다. 다음과 같이 점화식을 세울수 있다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;X가 3으로 나누어지면 D[X] = min(D[X], D[X-3] + 1)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;X가 2로 나누어지면 D[X] = min(D[X], D[X-2] + 1)&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;모든 경우 D[X] = min(D[X], D[X] + 1)&lt;/code&gt;이다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;cstdio&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10000000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+	&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 초기값
+&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2e9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dynamic programming" /><summary>다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1</title><link href="http://astrohsy.com/parallel/intro-to-parallel-programming/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1" /><published>2016-09-21T00:00:00+09:00</published><updated>2016-09-21T00:00:00+09:00</updated><id>http://astrohsy.com/parallel/intro-to-parallel-programming</id><content type="html" xml:base="http://astrohsy.com/parallel/intro-to-parallel-programming/">&lt;p&gt;최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.&lt;/p&gt;
 
 &lt;h2 id=&quot;gpu&quot;&gt;GPU&lt;/h2&gt;
 &lt;p&gt;그래픽카드는 그래픽을 실제 출력장치에 그려주는 역할을 한다. 하지만 출력장치의 하나 하나의
@@ -112,24 +106,7 @@
 &lt;p&gt;이유는 간단하다. 빅데이터의 시대와 고품질 멀티미디어의 세계가 시작되면서 대용량 데이터에 대한 처리의 중요성이 커져서 그렇다.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;병렬 프로그래밍 시작&lt;/h2&gt;
-&lt;p&gt;하지만 이 강력한 병렬 컴퓨팅도 병렬 프로그래밍을 할 줄 모른다면 아무 의미가 없다. 그래서 NDIVIA의 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA(Compute Unified Device Architecture)&lt;/code&gt;를 공부하면서 병렬 프로그래밍을 공부하고자 한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt;에 좀 익숙해지면 &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;도 해볼 생각이다.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 21 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/parallel/intro-to-parallel-programming/</link>
-        <guid isPermaLink="true">http://localhost:4000/parallel/intro-to-parallel-programming/</guid>
-        
-        <category>parallel</category>
-        
-        <category>cuda</category>
-        
-        
-        <category>Parallel</category>
-        
-      </item>
-    
-      <item>
-        <title>Three.js로 시작하는 WebGL - 1</title>
-        <description>&lt;p&gt;나는 프로젝트에서 3D 모델 stl파일을 웹에서 보여주는 작업을 해야하기 때문에 threejs를 배우기 시작하였다. 이제 threejs 관련 몇몇 글을 번역하면서
+&lt;p&gt;하지만 이 강력한 병렬 컴퓨팅도 병렬 프로그래밍을 할 줄 모른다면 아무 의미가 없다. 그래서 NDIVIA의 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA(Compute Unified Device Architecture)&lt;/code&gt;를 공부하면서 병렬 프로그래밍을 공부하고자 한다. &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt;에 좀 익숙해지면 &lt;code class=&quot;highlighter-rouge&quot;&gt;OpenCL&lt;/code&gt;도 해볼 생각이다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="parallel" /><category term="cuda" /><summary>최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.</summary></entry><entry><title>Three.js로 시작하는 WebGL - 1</title><link href="http://astrohsy.com/webgl/threejs-intro-1/" rel="alternate" type="text/html" title="Three.js로 시작하는 WebGL - 1" /><published>2016-09-18T00:00:00+09:00</published><updated>2016-09-18T00:00:00+09:00</updated><id>http://astrohsy.com/webgl/threejs-intro-1</id><content type="html" xml:base="http://astrohsy.com/webgl/threejs-intro-1/">&lt;p&gt;나는 프로젝트에서 3D 모델 stl파일을 웹에서 보여주는 작업을 해야하기 때문에 threejs를 배우기 시작하였다. 이제 threejs 관련 몇몇 글을 번역하면서
 배운다는 생각으로 글도 포스팅 해 볼생각이다.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://treehouse-code-samples.s3.amazonaws.com/threejs_logo_example/threejs_logo_example.zip&quot;&gt;ㅅ샘플코드&lt;/a&gt;;&lt;/p&gt;
@@ -259,24 +236,8 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
 &lt;p&gt;&lt;a href=&quot;http://blog.teamtreehouse.com/the-beginners-guide-to-three-js&quot;&gt;TreeHouse&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;기타&lt;/h2&gt;
-&lt;p&gt;다음 글에서는 다른 예제를 번역해보도록 하겠다.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/webgl/threejs-intro-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/webgl/threejs-intro-1/</guid>
-        
-        <category>threejs</category>
-        
-        <category>webgl</category>
-        
-        
-        <category>WebGL</category>
-        
-      </item>
-    
-      <item>
-        <title>깃허브(Github) 기초적인 사용법</title>
-        <description>&lt;p&gt;최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게된 기초적인 사용설명을 설명해보고자 한다.
+&lt;p&gt;다음 글에서는 다른 예제를 번역해보도록 하겠다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="threejs" /><category term="webgl" /><summary>나는 프로젝트에서 3D 모델 stl파일을 웹에서 보여주는 작업을 해야하기 때문에 threejs를 배우기 시작하였다. 이제 threejs 관련 몇몇 글을 번역하면서
+배운다는 생각으로 글도 포스팅 해 볼생각이다.</summary></entry><entry><title>깃허브(Github) 기초적인 사용법</title><link href="http://astrohsy.com/github/githubintro/" rel="alternate" type="text/html" title="깃허브(Github) 기초적인 사용법" /><published>2016-09-17T00:00:00+09:00</published><updated>2016-09-17T00:00:00+09:00</updated><id>http://astrohsy.com/github/githubintro</id><content type="html" xml:base="http://astrohsy.com/github/githubintro/">&lt;p&gt;최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게된 기초적인 사용설명을 설명해보고자 한다.
 우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길시 되돌릴 수가 있고, 프로젝트가 어느정도로 진행되었는지 알 수 있기 때문이다.&lt;/p&gt;
 
 &lt;h2 id=&quot;git&quot;&gt;깃(Git)&lt;/h2&gt;
@@ -339,24 +300,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;h3 id=&quot;section-5&quot;&gt;참조자료&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/benelog/2922437&quot;&gt;버전 관리 시스템 유랑기, 그리고 Git 적응기&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;
-</description>
-        <pubDate>Sat, 17 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/github/githubintro/</link>
-        <guid isPermaLink="true">http://localhost:4000/github/githubintro/</guid>
-        
-        <category>github</category>
-        
-        <category>project</category>
-        
-        
-        <category>Github</category>
-        
-      </item>
-    
-      <item>
-        <title>동적계획법(Dynamic Programming) 시작하기 - 1</title>
-        <description>&lt;h2 id=&quot;dpdynamic-programming&quot;&gt;DP(Dynamic Programming)?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="github" /><category term="project" /><summary>최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게된 기초적인 사용설명을 설명해보고자 한다.
+우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길시 되돌릴 수가 있고, 프로젝트가 어느정도로 진행되었는지 알 수 있기 때문이다.</summary></entry><entry><title>동적계획법(Dynamic Programming) - 개념</title><link href="http://astrohsy.com/algorithm/dynamic-programming-1/" rel="alternate" type="text/html" title="동적계획법(Dynamic Programming) - 개념" /><published>2016-09-16T00:00:00+09:00</published><updated>2016-09-16T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/dynamic-programming-1</id><content type="html" xml:base="http://astrohsy.com/algorithm/dynamic-programming-1/">&lt;h2 id=&quot;dpdynamic-programming&quot;&gt;DP(Dynamic Programming)?&lt;/h2&gt;
 &lt;p&gt;DP는 문제를 최적화를 할 때, 사용을 주로 합니다. 불필요하게 다시 계산을 하는 일을 막아 주는 기능을 합니다.&lt;/p&gt;
 
 &lt;p&gt;예를 들어, 가장 기본 적인 Fibonacci(피보나치) 숫자를 구하는 경우를 생각해 봅시다. 여기서 가장 단순하게 생각할 수 있는 코드는 피보나치는&lt;/p&gt;
@@ -434,22 +379,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 
 &lt;p&gt;반복문을 이용한 DP에서 n번째 피보나치 수를 구할 때, 기록하는 배열을 모두 잡을 필요가 없습니다. 변수 3개를 한 스텝마다 갱신을 하면서 구해서 메모리를 더욱 절약할 수 있습니다.&lt;/p&gt;
 
-&lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/dynamic-programming-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/dynamic-programming-1/</guid>
-        
-        <category>dynamic programming</category>
-        
-        
-        <category>Algorithm</category>
-        
-      </item>
-    
-      <item>
-        <title>제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기</title>
-        <description>&lt;h2 id=&quot;scpc&quot;&gt;SCPC&lt;/h2&gt;
+&lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dynamic programming" /><summary>DP(Dynamic Programming)?
+DP는 문제를 최적화를 할 때, 사용을 주로 합니다. 불필요하게 다시 계산을 하는 일을 막아 주는 기능을 합니다.</summary></entry><entry><title>제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기</title><link href="http://astrohsy.com/contest/scpc2016/" rel="alternate" type="text/html" title="제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기" /><published>2016-09-13T00:00:00+09:00</published><updated>2016-09-13T00:00:00+09:00</updated><id>http://astrohsy.com/contest/scpc2016</id><content type="html" xml:base="http://astrohsy.com/contest/scpc2016/">&lt;h2 id=&quot;scpc&quot;&gt;SCPC&lt;/h2&gt;
 &lt;p&gt;삼성에서 개최하는 작년부터 개최하기 시작한 대학생과 대학원이 참가 가능한 알고리즘 대회이다.
 1차와 2차는 온라인으로 진행되었고, 본선은 우면동에 위치한 삼성전자 건물에서 진행이 되었다.&lt;/p&gt;
 
@@ -471,22 +402,9 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;h2 id=&quot;section-2&quot;&gt;대회 후&lt;/h2&gt;
 &lt;p&gt;30명 정도의 상위 득점자들의 수상식을 진행하고, 대회가 종료가 되었다. 삼성전자 신종균 대표이사가 대회를 찾아오셔서 많이 놀랐다. 세삼 이 대회가 큰 대회라는 것을 실감하였다.&lt;/p&gt;
 
-&lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 13 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/contest/scpc2016/</link>
-        <guid isPermaLink="true">http://localhost:4000/contest/scpc2016/</guid>
-        
-        <category>scpc</category>
-        
-        
-        <category>Contest</category>
-        
-      </item>
-    
-      <item>
-        <title>SW개발병, 소프트웨어개발병 지원 후기</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;지원동기&lt;/h2&gt;
+&lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="scpc" /><summary>SCPC
+삼성에서 개최하는 작년부터 개최하기 시작한 대학생과 대학원이 참가 가능한 알고리즘 대회이다.
+1차와 2차는 온라인으로 진행되었고, 본선은 우면동에 위치한 삼성전자 건물에서 진행이 되었다.</summary></entry><entry><title>SW개발병, 소프트웨어개발병 지원 후기</title><link href="http://astrohsy.com/life/sw-develop-soldier-interview/" rel="alternate" type="text/html" title="SW개발병, 소프트웨어개발병 지원 후기" /><published>2016-09-12T00:00:00+09:00</published><updated>2016-09-12T00:00:00+09:00</updated><id>http://astrohsy.com/life/sw-develop-soldier-interview</id><content type="html" xml:base="http://astrohsy.com/life/sw-develop-soldier-interview/">&lt;h2 id=&quot;section&quot;&gt;지원동기&lt;/h2&gt;
 &lt;p&gt;우연히 병무청 홈페이지를 둘러보았는데, S/W개발병 모집공고가 눈에 들어왔다. 군대 문제로 머리가 아팠던 나는 군대에서도 프로그래밍을 까먹지 않고, 오히려 더 배울 수 있다는 생각에 S/W개발병 서류 지원을 하게 되었다.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;서류접수&lt;/h2&gt;
@@ -519,26 +437,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;/ul&gt;
 
 &lt;p&gt;면접은 무난하게 끝나고 돌아왔다.
-면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/life/sw-develop-soldier-interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/sw-develop-soldier-interview/</guid>
-        
-        <category>군인</category>
-        
-        <category>sw개발병</category>
-        
-        <category>면접</category>
-        
-        
-        <category>Life</category>
-        
-      </item>
-    
-      <item>
-        <title>최소공배수와 최대공약수을 구하는 알고리즘</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;유클리드 호제법&lt;/h2&gt;
+면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="군인" /><category term="sw개발병" /><category term="면접" /><summary>지원동기
+우연히 병무청 홈페이지를 둘러보았는데, S/W개발병 모집공고가 눈에 들어왔다. 군대 문제로 머리가 아팠던 나는 군대에서도 프로그래밍을 까먹지 않고, 오히려 더 배울 수 있다는 생각에 S/W개발병 서류 지원을 하게 되었다.</summary></entry><entry><title>최소공배수와 최대공약수 구하기</title><link href="http://astrohsy.com/algorithm/gcd/" rel="alternate" type="text/html" title="최소공배수와 최대공약수 구하기" /><published>2016-09-10T00:00:00+09:00</published><updated>2016-09-10T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/gcd</id><content type="html" xml:base="http://astrohsy.com/algorithm/gcd/">&lt;h2 id=&quot;section&quot;&gt;유클리드 호제법&lt;/h2&gt;
 &lt;p&gt;두 양의 정수 a, b에 대해서 b = aq + r (0 &amp;lt;= r &amp;lt; a)라 하면 a, b의 최대 공약수는 a, r의 최대 공약수와 같다는 원리이다.&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;최대공약수를 구하는 방법&lt;/h2&gt;
@@ -565,31 +465,8 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 서로 곱한 값에서 공통이 부분만 제외해주면 된다.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// gcd는 a, b의 최대공약수이다.
-&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lcm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gcd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Sat, 10 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/algorithm/gcd/</link>
-        <guid isPermaLink="true">http://localhost:4000/algorithm/gcd/</guid>
-        
-        <category>gcd</category>
-        
-        <category>lcd</category>
-        
-        <category>최대공약수</category>
-        
-        <category>최소공배수</category>
-        
-        <category>유클리드호제법</category>
-        
-        
-        <category>Algorithm</category>
-        
-      </item>
-    
-      <item>
-        <title>스택(Stack) 기본적인 사용 방법</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;개념&lt;/h2&gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lcm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gcd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="gcd" /><category term="lcd" /><category term="최대공약수" /><category term="최소공배수" /><category term="유클리드호제법" /><summary>유클리드 호제법
+두 양의 정수 a, b에 대해서 b = aq + r (0 &amp;lt;= r &amp;lt; a)라 하면 a, b의 최대 공약수는 a, r의 최대 공약수와 같다는 원리이다.</summary></entry><entry><title>스택(Stack) - 기본</title><link href="http://astrohsy.com/datastructure/stack/" rel="alternate" type="text/html" title="스택(Stack) - 기본" /><published>2016-09-08T00:00:00+09:00</published><updated>2016-09-08T00:00:00+09:00</updated><id>http://astrohsy.com/datastructure/stack</id><content type="html" xml:base="http://astrohsy.com/datastructure/stack/">&lt;h2 id=&quot;section&quot;&gt;개념&lt;/h2&gt;
 &lt;p&gt;Stack은 가장 기본적이고 널리 쓰이고 있는 자료구조이다.
 처음에 넣은 것은 마지막에 돌려주는 Last in First Out 즉, LIFO의 특성을 가진다.&lt;/p&gt;
 
@@ -666,20 +543,6 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 
 &lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/9012&quot;&gt;9012번 괄호&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1874&quot;&gt;1874번 스택수열&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 08 Sep 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/datastructure/stack/</link>
-        <guid isPermaLink="true">http://localhost:4000/datastructure/stack/</guid>
-        
-        <category>Stack</category>
-        
-        <category>LIFO</category>
-        
-        
-        <category>DataStructure</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/1874&quot;&gt;1874번 스택수열&lt;/a&gt;&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="Stack" /><category term="LIFO" /><summary>개념
+Stack은 가장 기본적이고 널리 쓰이고 있는 자료구조이다.
+처음에 넣은 것은 마지막에 돌려주는 Last in First Out 즉, LIFO의 특성을 가진다.</summary></entry></feed>
