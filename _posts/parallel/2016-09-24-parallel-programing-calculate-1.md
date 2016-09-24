@@ -7,7 +7,7 @@ date : 2016-09-24 22:00:00 +0900
 ---
 
 `CUDA`는 `C++ like Language`이다. 사실상, C++에서 `CUDA` 관련 라이브러리가 추가되어 있는 구조라고 생각하면 쉽다. 그래서 `CUDA` 파일인 `.cu` 소스파일을 실행시키면 다음 사진과 같이 실행을 시킨다.
-[!logic](https://c4.staticflickr.com/9/8230/29267752363_60e1c95eca_b.jpg)
+![logic](https://c4.staticflickr.com/9/8230/29267752363_60e1c95eca_b.jpg)
 그리고 CPU가 실행시키는 코드는 `serial 코드(host)`라고 부르고, GPU가 실행시키는 코드는 `Kernel 코드(device)`라고 부른다. CPU가 실행히키는 코드는 순차적으로 실행시키고 `CUDA` 코드를 실행시키면 그때부터 병렬로 실행되고, CPU는 병렬 코드가 끝날 때까지 기다리는 구조이다.
 
 ## 데이터 전송
@@ -18,6 +18,8 @@ date : 2016-09-24 22:00:00 +0900
 * 모든 `CUDA` library 함수들은 `cuda`로 시작하다.
 * Library 함수들은 error code 혹은 `cudaSucess`를 반환한다.
 * GPU에서 사용할 변수들은 앞에 `dev_`를 붙여야한다.
+* host 함수 앞에는 \__host__을 붙인다.
+* device 함수 앞에는 \__device__ 혹은 \__global__을 붙여야한다.
 
 그러면 간단하게 배열을 `GPU`를 거쳐서 카피하는 코드를 작성해보면 다음과 같다.
 
