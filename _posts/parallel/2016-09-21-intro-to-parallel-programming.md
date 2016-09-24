@@ -22,4 +22,4 @@ GPU가 CPU보다 엄청나게 많은 량의 ALU를 가지고 있는 것을 알 �
  이유는 간단하다. 빅데이터의 시대와 고품질 멀티미디어의 세계가 시작되면서 대용량 데이터에 대한 처리의 중요성이 커져서 그렇다.
 
 ## 병렬 프로그래밍 시작
- 하지만 이 강력한 병렬 컴퓨팅도 병렬 프로그래밍을 할 줄 모른다면 아무 의미가 없다. 그래서 NDIVIA의 `CUDA(Compute Unified Device Architecture)`를 공부하면서 병렬 프로그래밍을 공부하고자 한다. `CUDA`에 좀 익숙해지면 `OpenCL`도 해볼 생각이다.
+ 하지만 이 강력한 병렬 컴퓨팅도 병렬 프로그래밍을 할 줄 모른다면 아무 의미가 없다. 그래서 NDIVIA의 `CUDA(Compute Unified Device Architecture)`를 공부하면서 병렬 프로그래밍을 공부하고자 한다. `CUDA`는 NDIVIA에서 만들어서 NDIVIA 그래픽카드(GeForce)를 장착한 컴퓨터에서만 돌어아간다고 한다.. `CUDA`에 좀 익숙해지면 `OpenCL`도 해볼 생각이다. 
