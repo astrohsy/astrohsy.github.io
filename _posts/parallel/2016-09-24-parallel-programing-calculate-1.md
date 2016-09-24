@@ -1,8 +1,8 @@
 ---
-title: CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 2
+title: CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 데이터이동
 categories: [Parallel]
 tags: [parallel, cuda]
-description: 병렬 프로그래밍의 기본적인 연산 방법 및 원리
+description: 병렬 프로그래밍의 기본적인 연산 방법 및 원리, 데이터 이동 관련
 date : 2016-09-24 22:00:00 +0900
 ---
 
