@@ -1,5 +1,5 @@
 ---
-title: 동적계획법(Dynamic Programming) 시작하기 - 2
+title: 동적계획법(Dynamic Programming) - 입문
 categories: [Algorithm]
 tags: [dynamic programming]
 description: 기본적인 1~2차원 다이나믹 프로그래밍에 대한 설명과 풀이
