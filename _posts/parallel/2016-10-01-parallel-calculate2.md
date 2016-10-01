@@ -14,7 +14,7 @@ date : 2016-10-01 22:00:00 +0900
 
 그리고 이와 같은 `BLOCK`과 `GRID`를 정의한 다음에 `Kernel Function` 즉 Device에서 돌아갈 함수랑 같이 쓰여야한다.
 
-{% highlight cuda %}
+{% highlight c++ %}
 __global__ void kernelFunc();
 
 dim3 DimGrid(10, 10); //100 thread blocks
@@ -32,7 +32,7 @@ kernelFunc<<< DimGrid, DimBlock>>>();
 
 ## 행렬 덧셈 구현
 
-{% highlight cuda %}
+{% highlight c++ %}
 #include <cstdio>
 
 __global__ void addKernel(int *c, const int *a, const int *b) {
