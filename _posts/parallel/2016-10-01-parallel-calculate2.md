@@ -8,7 +8,7 @@ date : 2016-10-01 22:00:00 +0900
 
 우선 행렬 계산을 하기 전에 CUDA에서 어떤 방식으로 여러 개의 쓰레드를 돌리는지를 알아야한다. CUDA에선 `BLOCK`과 `GRID`로 쓰레드 그룹을 관리한다.
 
-`BLOCK`에서는 여러 개의 `THREAD`를 (x, y, z) 즉, 3차원 이하로 가지고 있을 수 있고, `GRID`는 여러 `BLOCK`을 2차원 이하(x, y) 로 가지고 있을 수 있다. 그림으로 나타내면 다음과 같다.
+`BLOCK`에서는 여러 개의 `THREAD`를 (x, y, z) 즉, 3차원 이하로 가지고 있을 수 있고, `GRID`는 여러 `BLOCK`을 2차원 이하(x, y) 로 가지고 있을 수 있다. 그림으로 나타내면 다음과 같다. 그리고 한 `BLOCK`에는 1024개가 넘는 `THREAD`를 가지고 있을 수 없다.
 
 ![image]("https://c2.staticflickr.com/9/8679/30000520041_e2bb9beeff_b.jpg)
 
@@ -93,6 +93,31 @@ int main() {
 
 ## 행렬 곱셈 연산
 
+행렬 곱셈 같은 경우는 O(n^3) 이다. 다음과 같이 구현해서 한 쓰레드 당 O(n)의 시간복잡도를 가지는 프로그램을 작성할 수 있다.
 
+{% highlight c++ %}
+__global__ void mulKernel(int *c, const int *a, const int *b, int N) {
+    // global index로 변환
+    int ROW = blockIdx.y*blockDim.y + threadIdx.y;
+    int COL = blockIdx.x*blockDim.x + threadIdx.x;
+
+    double sum = 0.0;
+
+    /*
+        이건 thread는 메모레에 Random Access를 하기 때문에
+        thread가 불필요한 계산까지도 할 수 있다. 그래서 그것을
+        방직하기 위해서 매트릭스에 속하지 않은 것들은 계산하지 않기
+        위해서 조건문을 걸어둔 것 이다.
+    */
+    if( ROW < N && COL < N) {
+        for(int k = 0; k<N; k++) {
+            sum += A[ROW * N + k] * B[k * N + COL];
+        }
+    }
+    C[ROW * N + COL] = sum;
+}
+{% endhighlight %}
 ## 출처
 Programming Massively Parallel Processors(ECE498AL) by Davia Kirk and Win-mei W. Hwu
+
+[QuantStart: MATRIX-MATRIX MULTIPLICATION ON THE GPU WITH NVIDIA CUDA](https://www.quantstart.com/articles/Matrix-Matrix-Multiplication-on-the-GPU-with-Nvidia-CUDA)
