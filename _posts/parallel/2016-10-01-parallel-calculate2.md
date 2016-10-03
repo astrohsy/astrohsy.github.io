@@ -10,7 +10,7 @@ date : 2016-10-01 22:00:00 +0900
 
 `BLOCK`에서는 여러 개의 `THREAD`를 (x, y, z) 즉, 3차원 이하로 가지고 있을 수 있고, `GRID`는 여러 `BLOCK`을 2차원 이하(x, y) 로 가지고 있을 수 있다. 그림으로 나타내면 다음과 같다.
 
-![image]()
+![image]("https://c2.staticflickr.com/9/8679/30000520041_e2bb9beeff_b.jpg)
 
 그리고 이와 같은 `BLOCK`과 `GRID`를 정의한 다음에 `Kernel Function` 즉 Device에서 돌아갈 함수랑 같이 쓰여야한다.
 
