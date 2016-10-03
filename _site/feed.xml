@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://astrohsy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://astrohsy.com/" rel="alternate" type="text/html" /><updated>2016-09-25T22:32:33+09:00</updated><id>http://astrohsy.com/</id><title>ShootingBugs</title><subtitle>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</subtitle><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><entry><title>3D프린터를 처음으로 사용해보다.</title><link href="http://astrohsy.com/daily/3D-printer/" rel="alternate" type="text/html" title="3D프린터를 처음으로 사용해보다." /><published>2016-09-25T20:00:00+09:00</published><updated>2016-09-25T20:00:00+09:00</updated><id>http://astrohsy.com/daily/3D-printer</id><content type="html" xml:base="http://astrohsy.com/daily/3D-printer/">&lt;p&gt;학교에서 간단한 프로젝트를 하던 중에 자체적으로 제작해야하는 툴이 생겨서 3D 프린팅에 대해서 알아보기 시작했다. 운좋게도 학교안에 글로벌플라자에 3D 프린터를 무료로 사용할 수 있다는 것을 교수님을 통해 알게 되어서 방문하였다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://astrohsy.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://astrohsy.com/" rel="alternate" type="text/html" /><updated>2016-10-03T19:22:26+09:00</updated><id>http://astrohsy.com/</id><title>ShootingBugs</title><subtitle>참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다.</subtitle><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><entry><title>[경북대 맛집] 동대구시장 보꾸로꾸 볶음우동</title><link href="http://astrohsy.com/food/dongdaegu-1/" rel="alternate" type="text/html" title="\[경북대 맛집\] 동대구시장 보꾸로꾸 볶음우동" /><published>2016-10-03T18:00:00+09:00</published><updated>2016-10-03T18:00:00+09:00</updated><id>http://astrohsy.com/food/dongdaegu-1</id><content type="html" xml:base="http://astrohsy.com/food/dongdaegu-1/">&lt;p&gt;우연히 동대구시장 안에 샛길로 들어가면 청춘장이 있다는 것을 알게되었다. 그리고 청춘장에서 그 중에서 철판볶음밥과 철판볶음우동을 파는 보꾸로꾸라는 음식점에서 먹기로 했다.&lt;/p&gt;
+
+&lt;p&gt;먹는 곳은 따로 가게 안에 없었고, 밖에 공용으로 이용할 수 테이블이 있었다. 그리고 여기서 여러 식당 메뉴를 다 모아놓은 메뉴판도 있었다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8419/29970744242_af1556a5ae_b.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;음식을 기다리는 시간은 생각보다 길었는데, 청춘장 주변을 둘러보면서 기달렸다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5204/30001633351_403fec2198_b.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;주문한 철판볶음우동이 나왔다. 가격은 5000원이 였다. 생각했던 것보다 많은 괜찮았다. 주변 식당에서 여러 음식을 사가지고 같이 먹으면 괜찮을 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="동대구" /><category term="음식" /><summary>우연히 동대구시장 안에 샛길로 들어가면 청춘장이 있다는 것을 알게되었다. 그리고 청춘장에서 그 중에서 철판볶음밥과 철판볶음우동을 파는 보꾸로꾸라는 음식점에서 먹기로 했다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 행렬(Matrix) 계산</title><link href="http://astrohsy.com/parallel/parallel-calculate2/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 행렬(Matrix) 계산" /><published>2016-10-01T22:00:00+09:00</published><updated>2016-10-01T22:00:00+09:00</updated><id>http://astrohsy.com/parallel/parallel-calculate2</id><content type="html" xml:base="http://astrohsy.com/parallel/parallel-calculate2/">&lt;p&gt;우선 행렬 계산을 하기 전에 CUDA에서 어떤 방식으로 여러 개의 쓰레드를 돌리는지를 알아야한다. CUDA에선 &lt;code class=&quot;highlighter-rouge&quot;&gt;BLOCK&lt;/code&gt;과 &lt;code class=&quot;highlighter-rouge&quot;&gt;GRID&lt;/code&gt;로 쓰레드 그룹을 관리한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;BLOCK&lt;/code&gt;에서는 여러 개의 &lt;code class=&quot;highlighter-rouge&quot;&gt;THREAD&lt;/code&gt;를 (x, y, z) 즉, 3차원 이하로 가지고 있을 수 있고, &lt;code class=&quot;highlighter-rouge&quot;&gt;GRID&lt;/code&gt;는 여러 &lt;code class=&quot;highlighter-rouge&quot;&gt;BLOCK&lt;/code&gt;을 2차원 이하(x, y) 로 가지고 있을 수 있다. 그림으로 나타내면 다음과 같다. 그리고 한 &lt;code class=&quot;highlighter-rouge&quot;&gt;BLOCK&lt;/code&gt;에는 1024개가 넘는 &lt;code class=&quot;highlighter-rouge&quot;&gt;THREAD&lt;/code&gt;를 가지고 있을 수 없다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/9/8679/30000520041_e2bb9beeff_b.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;그리고 이와 같은 &lt;code class=&quot;highlighter-rouge&quot;&gt;BLOCK&lt;/code&gt;과 &lt;code class=&quot;highlighter-rouge&quot;&gt;GRID&lt;/code&gt;를 정의한 다음에 &lt;code class=&quot;highlighter-rouge&quot;&gt;Kernel Function&lt;/code&gt; 즉 Device에서 돌아갈 함수랑 같이 쓰여야한다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;n&quot;&gt;__global__&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kernelFunc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;dim3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DimGrid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//100 thread blocks
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dim3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DimBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 120 thread per Blocks
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;kernelFunc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DimGrid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DimBlock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;위와 같이 C++에서 템플릿을 넘기듯이 사용하면 된다.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;dim3&lt;/code&gt; 자료형 같은 경우 3개 미만으로 parameter를 넘기는 것도 가능하다.&lt;/p&gt;
+
+&lt;p&gt;위와 같이 정의하면 각 &lt;code class=&quot;highlighter-rouge&quot;&gt;thread&lt;/code&gt;는 고유한 &lt;code class=&quot;highlighter-rouge&quot;&gt;blockIdx&lt;/code&gt;와 &lt;code class=&quot;highlighter-rouge&quot;&gt;threadIdx&lt;/code&gt;를 가진다.&lt;/p&gt;
+
+&lt;p&gt;위 두 개의 고유한 값을 이용해서 각 &lt;code class=&quot;highlighter-rouge&quot;&gt;thread&lt;/code&gt;는 자기의 고유한 위치를 알 수 있다. 그리고 이렇게 정의된 &lt;code class=&quot;highlighter-rouge&quot;&gt;Blocks of Threads&lt;/code&gt;는 CUDA 자체 Queue를 통해서 &lt;code class=&quot;highlighter-rouge&quot;&gt;SMs(Streaming multiprocessors)&lt;/code&gt;에 할당되어 CUDA가 계산을 해준다.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;행렬 덧셈 구현&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;cstdio&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;__global__&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;addKernel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threadIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threadIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blockDim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1차원 인덱스로 변환
+&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//host data
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 배열 초기화
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//device data
+&lt;/span&gt;    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;//메모리 할당
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cudaMalloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cudaMalloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cudaMalloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// host에서 device로 데이터 전송
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cudaMemcpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cudaMemcpyHostToDevice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cudaMemcpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cudaMemcpyHostToDevice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// GPU에서 행렬의 하나의 원소에 쓰레드 한 개씩 생성해서 연산
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;dim3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dimBlock&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// (x, y, z)
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;addKernel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dimBlock&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev_c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dev_a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dev_b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// device에서 host로 데이터 전송
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cudaMemcpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dev_c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cudaMemcpyDeviceToHost&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// 결과 출력
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HEIGHT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WIDTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%5d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;행렬 곱셈 연산&lt;/h2&gt;
+
+&lt;p&gt;행렬 곱셈 같은 경우는 O(n^3) 이다. 다음과 같이 구현해서 한 쓰레드 당 O(n)의 시간복잡도를 가지는 프로그램을 작성할 수 있다.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;n&quot;&gt;__global__&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;mulKernel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// global index로 변환
+&lt;/span&gt;    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ROW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blockDim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threadIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;COL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blockIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blockDim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;threadIdx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;cm&quot;&gt;/*
+        이건 thread는 메모레에 Random Access를 하기 때문에
+        thread가 불필요한 계산까지도 할 수 있다. 그래서 그것을
+        방직하기 위해서 매트릭스에 속하지 않은 것들은 계산하지 않기
+        위해서 조건문을 걸어둔 것 이다.
+    */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ROW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;COL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ROW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;COL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ROW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;COL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;출처&lt;/h2&gt;
+&lt;p&gt;Programming Massively Parallel Processors(ECE498AL) by Davia Kirk and Win-mei W. Hwu&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.quantstart.com/articles/Matrix-Matrix-Multiplication-on-the-GPU-with-Nvidia-CUDA&quot;&gt;QuantStart: MATRIX-MATRIX MULTIPLICATION ON THE GPU WITH NVIDIA CUDA&lt;/a&gt;&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="parallel" /><category term="cuda" /><summary>우선 행렬 계산을 하기 전에 CUDA에서 어떤 방식으로 여러 개의 쓰레드를 돌리는지를 알아야한다. CUDA에선 BLOCK과 GRID로 쓰레드 그룹을 관리한다.</summary></entry><entry><title>쉬운 다이나믹프로그래밍 문제 및 풀이</title><link href="http://astrohsy.com/algorithm/easy-dp/" rel="alternate" type="text/html" title="쉬운 다이나믹프로그래밍 문제 및 풀이" /><published>2016-09-27T00:00:00+09:00</published><updated>2016-09-27T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/easy-dp</id><content type="html" xml:base="http://astrohsy.com/algorithm/easy-dp/">&lt;p&gt;혼자 이것 저것 문제들을 풀어보면서 처음 시작할 때, 공부하기 쉬운 DP문제들을 올릴려고 합니다.
+이 글은 계속 업뎃할 계획이다. 5개 문제가 넘어가면 새로운 포스트로 다시 작성할 생각이다.&lt;/p&gt;
+
+&lt;h2 id=&quot;httpswwwacmicpcnetproblem2846&quot;&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/2846&quot;&gt;오르막 길&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;LIS(Longest Increasing sub-sequence)라는 DP알고리즘이 있는데, 이 문제는 LIS의 축소판인 것 같다.
+간단하게 O(n) time안에 풀린다. 즉 for문 하나만으로 풀린다는 소리이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;cstdio&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1001&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_max&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;2e9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;prev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_max&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_max&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;prev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dp" /><category term="algorithm" /><summary>혼자 이것 저것 문제들을 풀어보면서 처음 시작할 때, 공부하기 쉬운 DP문제들을 올릴려고 합니다.
+이 글은 계속 업뎃할 계획이다. 5개 문제가 넘어가면 새로운 포스트로 다시 작성할 생각이다.</summary></entry><entry><title>SW개발병, 소프트웨어개발병 합격</title><link href="http://astrohsy.com/life/sw-developer-soldier-accept/" rel="alternate" type="text/html" title="SW개발병, 소프트웨어개발병 합격" /><published>2016-09-27T00:00:00+09:00</published><updated>2016-09-27T00:00:00+09:00</updated><id>http://astrohsy.com/life/sw-developer-soldier-accept</id><content type="html" xml:base="http://astrohsy.com/life/sw-developer-soldier-accept/">&lt;p&gt;문자로 SW개발병 합격 소식을 통보받았다.. 입대는 우선 12월이고 육군 소속이라 21개월 복무를 할 것 같다. 소수 보직이라 그런지 주변에 정보가 없어서 어떻게 부대에서 어떻게 생활할지는 아직 잘 모르겠다.&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;소프트웨어 개발병을 준비하는 이들에게&lt;/h2&gt;
+
+&lt;p&gt;면접에서 물어본 것을 바탕으로.. 단순히 프로젝트를 많이 해본 것보다는 프로젝트에서 자기가 어떤 역할을 했고, 어떤 기술을 다뤘는지를 좀 더 보는 것 같다. 그리고 아무래도 군대이다보니, 정보보안을 쪽에 관심이 있는 사람이면 더 유리할 것 같다.
+나같은 경우 정보보안보다는 알고리즘과 기계학습 쪽에 관심이 있어서 면접볼 때는 내가 군대에서는 알맞지 않나 생각했었다.
+그리고 면접에서 프로젝트나 기술력면에서 어필하면 좋은 결과가 있을 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="군인" /><category term="sw개발병" /><category term="면접" /><summary>문자로 SW개발병 합격 소식을 통보받았다.. 입대는 우선 12월이고 육군 소속이라 21개월 복무를 할 것 같다. 소수 보직이라 그런지 주변에 정보가 없어서 어떻게 부대에서 어떻게 생활할지는 아직 잘 모르겠다.</summary></entry><entry><title>3D프린터를 처음으로 사용해보다.</title><link href="http://astrohsy.com/daily/3D-printer/" rel="alternate" type="text/html" title="3D프린터를 처음으로 사용해보다." /><published>2016-09-25T20:00:00+09:00</published><updated>2016-09-25T20:00:00+09:00</updated><id>http://astrohsy.com/daily/3D-printer</id><content type="html" xml:base="http://astrohsy.com/daily/3D-printer/">&lt;p&gt;학교에서 간단한 프로젝트를 하던 중에 자체적으로 제작해야하는 장치가 생겨서 3D 프린팅에 대해서 알아보기 시작했다. 운좋게도 학교안에 글로벌플라자에 3D 프린터를 무료로 사용할 수 있다는 것을 교수님을 통해 알게 되어서 방문하였다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8284/29283932984_802897b57e_b.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
@@ -22,7 +174,7 @@
 
 &lt;h2 id=&quot;section&quot;&gt;최종결과물&lt;/h2&gt;
 
-&lt;p&gt;마지막에는 치수가 맞는 것을 한번에 찾기 위해서 1mm씩 조절하면서 5개의 모델을 출력했다. 그러니까 이렇게 한 개의 3D프린터에서 같이 붙여져서 나왔다.&lt;/p&gt;
+&lt;p&gt;마지막에는 치수가 맞는 것을 한 번에 찾기 위해서 1mm씩 조절하면서 5개의 모델을 출력했다. 그러니까 이렇게 한 개의 3D 프린터에서 같이 붙여져서 나왔다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8347/29283932474_a728913d7d_z.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
@@ -32,9 +184,9 @@
 
 &lt;h2 id=&quot;section-1&quot;&gt;소감&lt;/h2&gt;
 
-&lt;p&gt;재질은 여러 종류가 있었고, 우리 프로젝트에는 플라스틱 형태의 제류가 적절해 보여서 플라스틱 같은 재질을 사용하였다. 색은 따로 선택할 수 없었다. 하지만 마지막에 DSLR 색과 똑같은 검은색으로 출력되서 운이 좋았다.&lt;/p&gt;
+&lt;p&gt;재질은 여러 종류가 있었고, 우리 프로젝트에는 플라스틱 같은 재질을 사용하였다. 색은 따로 선택할 수 없었다. 하지만 마지막에 DSLR 색과 똑같은 검은색으로 출력돼서 운이 좋았다.&lt;/p&gt;
 
-&lt;p&gt;마지막으로 직원분들도 모두 친절하시고, 생각했던 것보다 3D 프린터로 출력된 제품의 완성도가 높아서 좋았다. 뭔가를 손수 제작을 해야하면 3D 프린터를 사용하는 것이 좋은 선택이 될 것 같다. 간단한 물건은 비교적 손쉽게 제작할 수 있고, 인터넷에 3D 설계된 3D 파일이 이미 많이 존재해서 이미 만들어진 것을 출력해도 좋을 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="3d-printer" /><summary>학교에서 간단한 프로젝트를 하던 중에 자체적으로 제작해야하는 툴이 생겨서 3D 프린팅에 대해서 알아보기 시작했다. 운좋게도 학교안에 글로벌플라자에 3D 프린터를 무료로 사용할 수 있다는 것을 교수님을 통해 알게 되어서 방문하였다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 데이터이동</title><link href="http://astrohsy.com/parallel/parallel-programing-calculate-1/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 데이터이동" /><published>2016-09-24T22:00:00+09:00</published><updated>2016-09-24T22:00:00+09:00</updated><id>http://astrohsy.com/parallel/parallel-programing-calculate-1</id><content type="html" xml:base="http://astrohsy.com/parallel/parallel-programing-calculate-1/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;C++ like Language&lt;/code&gt;이다. 사실상, C++에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt; 관련 라이브러리가 추가되어 있는 구조라고 생각하면 쉽다. 그래서 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt; 파일인 &lt;code class=&quot;highlighter-rouge&quot;&gt;.cu&lt;/code&gt; 소스파일을 실행시키면 다음 사진과 같이 실행을 시킨다.
+&lt;p&gt;마지막으로 직원분들도 모두 친절하시고, 생각했던 것보다 3D 프린터로 출력된 제품의 완성도가 높아서 좋았다. 뭔가를 손수 제작을 해야하면 3D 프린터를 사용하는 것이 좋은 선택이 될 것 같다. 간단한 물건은 비교적 손쉽게 제작할 수 있고, 인터넷에 3D 설계된 3D 파일이 이미 많이 존재해서 이미 만들어진 것을 출력해도 좋을 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="3d-printer" /><summary>학교에서 간단한 프로젝트를 하던 중에 자체적으로 제작해야하는 장치가 생겨서 3D 프린팅에 대해서 알아보기 시작했다. 운좋게도 학교안에 글로벌플라자에 3D 프린터를 무료로 사용할 수 있다는 것을 교수님을 통해 알게 되어서 방문하였다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 실행구조</title><link href="http://astrohsy.com/parallel/parallel-programing-calculate-1/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 실행구조" /><published>2016-09-24T22:00:00+09:00</published><updated>2016-09-24T22:00:00+09:00</updated><id>http://astrohsy.com/parallel/parallel-programing-calculate-1</id><content type="html" xml:base="http://astrohsy.com/parallel/parallel-programing-calculate-1/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt;는 &lt;code class=&quot;highlighter-rouge&quot;&gt;C++ like Language&lt;/code&gt;이다. 사실상, C++에서 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt; 관련 라이브러리가 추가되어 있는 구조라고 생각하면 쉽다. 그래서 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt; 파일인 &lt;code class=&quot;highlighter-rouge&quot;&gt;.cu&lt;/code&gt; 소스파일을 실행시키면 다음 사진과 같이 실행을 시킨다.
 &lt;img src=&quot;https://c4.staticflickr.com/9/8230/29267752363_60e1c95eca_b.jpg&quot; alt=&quot;logic&quot; /&gt;
 그리고 CPU가 실행시키는 코드는 &lt;code class=&quot;highlighter-rouge&quot;&gt;serial 코드(host)&lt;/code&gt;라고 부르고, GPU가 실행시키는 코드는 &lt;code class=&quot;highlighter-rouge&quot;&gt;Kernel 코드(device)&lt;/code&gt;라고 부른다. CPU가 실행히키는 코드는 순차적으로 실행시키고 &lt;code class=&quot;highlighter-rouge&quot;&gt;CUDA&lt;/code&gt; 코드를 실행시키면 그때부터 병렬로 실행되고, CPU는 병렬 코드가 끝날 때까지 기다리는 구조이다.&lt;/p&gt;
 
@@ -183,7 +335,7 @@
 	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
 
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dynamic programming" /><summary>다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1</title><link href="http://astrohsy.com/parallel/intro-to-parallel-programming/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 1" /><published>2016-09-21T00:00:00+09:00</published><updated>2016-09-21T00:00:00+09:00</updated><id>http://astrohsy.com/parallel/intro-to-parallel-programming</id><content type="html" xml:base="http://astrohsy.com/parallel/intro-to-parallel-programming/">&lt;p&gt;최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.&lt;/p&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dynamic programming" /><summary>다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.</summary></entry><entry><title>CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 시작</title><link href="http://astrohsy.com/parallel/intro-to-parallel-programming/" rel="alternate" type="text/html" title="CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 시작" /><published>2016-09-21T00:00:00+09:00</published><updated>2016-09-21T00:00:00+09:00</updated><id>http://astrohsy.com/parallel/intro-to-parallel-programming</id><content type="html" xml:base="http://astrohsy.com/parallel/intro-to-parallel-programming/">&lt;p&gt;최근에 병렬 프로그래밍이 많은 관심을 받고 있다. 그 이유는 병렬 프로그래밍을 이용하면 비교적 저렴한 가격에 슈퍼컴퓨터의 성능을 얻을 수 있다는데 있다. 하지만 어떻게 해서 이런 일이 가능한지 우선 알아보도록 하자.&lt;/p&gt;
 
 &lt;h2 id=&quot;gpu&quot;&gt;GPU&lt;/h2&gt;
 &lt;p&gt;그래픽카드는 그래픽을 실제 출력장치에 그려주는 역할을 한다. 하지만 출력장치의 하나 하나의
@@ -333,8 +485,8 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
 
 &lt;h2 id=&quot;section-1&quot;&gt;기타&lt;/h2&gt;
 &lt;p&gt;다음 글에서는 다른 예제를 번역해보도록 하겠다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="threejs" /><category term="webgl" /><summary>나는 프로젝트에서 3D 모델 stl파일을 웹에서 보여주는 작업을 해야하기 때문에 threejs를 배우기 시작하였다. 이제 threejs 관련 몇몇 글을 번역하면서
-배운다는 생각으로 글도 포스팅 해 볼생각이다.</summary></entry><entry><title>깃허브(Github) 기초적인 사용법</title><link href="http://astrohsy.com/github/githubintro/" rel="alternate" type="text/html" title="깃허브(Github) 기초적인 사용법" /><published>2016-09-17T00:00:00+09:00</published><updated>2016-09-17T00:00:00+09:00</updated><id>http://astrohsy.com/github/githubintro</id><content type="html" xml:base="http://astrohsy.com/github/githubintro/">&lt;p&gt;최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게된 기초적인 사용설명을 설명해보고자 한다.
-우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길시 되돌릴 수가 있고, 프로젝트가 어느정도로 진행되었는지 알 수 있기 때문이다.&lt;/p&gt;
+배운다는 생각으로 글도 포스팅 해 볼생각이다.</summary></entry><entry><title>깃허브(Github) 기초적인 사용법</title><link href="http://astrohsy.com/github/githubintro/" rel="alternate" type="text/html" title="깃허브(Github) 기초적인 사용법" /><published>2016-09-17T00:00:00+09:00</published><updated>2016-09-17T00:00:00+09:00</updated><id>http://astrohsy.com/github/githubintro</id><content type="html" xml:base="http://astrohsy.com/github/githubintro/">&lt;p&gt;최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게 된 기초적인 사용설명을 설명해보고자 한다.
+우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야 한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길 시 되돌릴 수가 있고, 프로젝트가 어느 정도로 진행되었는지 알 수 있기 때문이다.&lt;/p&gt;
 
 &lt;h2 id=&quot;git&quot;&gt;깃(Git)&lt;/h2&gt;
 &lt;p&gt;이런 버전 관리 툴은 이미 많이 존재하지만, 최근에 가장 많이 사용하는 툴은 깃(Git)이다. 그 이유는 다른 버전 관리 툴과 다르게 “분산(Distributed)”을 하기 때문이다. 분산을 통해 버전 기록과 통합을 별도로 진행을 해서 프로젝트의 자유도를 높일 수가 있다고 한다. 각자의 버전 기록을 할 때는 commit을 하고, 통합이 필요할 때만 push를 함으로써 기록하면 되기 때문이다.&lt;/p&gt;
@@ -347,7 +499,7 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
 #### 1. 새로운 프로젝트를 만들 때
 * 프로젝트를 진행하기 전에 깃허브에 들어가서 repository를 만들어야한다.
 깃허브에서 New repository 버튼을 눌러 repository를 만든다.
-* 생성된 repository안에 들어가서 초록색 clone or download 버튼을 클릭한 다음 나타는 링크를 복사한다.
+* 생성된 repository안에 들어가서 초록색 clone or download 버튼을 클릭한 다음 나타나는 링크를 복사한다.
 * 프로젝트를 만들고 싶은 경로를 Command 창으로 들어간다.
 * 복사한 주소가 만약 “https://github.com/astrohsy/blog.git”이라면 다음을 커맨드창에 입력한다.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt; git clone https://github.com/astrohsy/blog.git &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -356,7 +508,7 @@ canvas 및 SVG의 Render를 사용할 수 있지만, GPU를 활용하여 빠르�
 &lt;ul&gt;
   &lt;li&gt;프로젝트를 진행하기 전에 깃허브에 들어가서 repository를 만들어야한다.
 깃허브에서 New repository 버튼을 눌러 repository를 만든다.&lt;/li&gt;
-  &lt;li&gt;생성된 repository안에 들어가서 초록색 clone or download 버튼을 클릭한 다음 나타는 링크를 복사한다.&lt;/li&gt;
+  &lt;li&gt;생성된 repository안에 들어가서 초록색 clone or download 버튼을 클릭한 다음 나타나는 링크를 복사한다.&lt;/li&gt;
   &lt;li&gt;프로젝트를 만들고 싶은 경로를 Command 창으로 들어간다.&lt;/li&gt;
   &lt;li&gt;복사한 주소가 만약 “https://github.com/astrohsy/blog.git”이라면 다음을 커맨드 창에 입력한다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -396,170 +548,5 @@ git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;여기에 수정 내역을
 &lt;h3 id=&quot;section-5&quot;&gt;참조자료&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://gist.github.com/benelog/2922437&quot;&gt;버전 관리 시스템 유랑기, 그리고 Git 적응기&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="github" /><category term="project" /><summary>최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게된 기초적인 사용설명을 설명해보고자 한다.
-우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길시 되돌릴 수가 있고, 프로젝트가 어느정도로 진행되었는지 알 수 있기 때문이다.</summary></entry><entry><title>동적계획법(Dynamic Programming) - 개념</title><link href="http://astrohsy.com/algorithm/dynamic-programming-1/" rel="alternate" type="text/html" title="동적계획법(Dynamic Programming) - 개념" /><published>2016-09-16T00:00:00+09:00</published><updated>2016-09-16T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/dynamic-programming-1</id><content type="html" xml:base="http://astrohsy.com/algorithm/dynamic-programming-1/">&lt;h2 id=&quot;dpdynamic-programming&quot;&gt;DP(Dynamic Programming)?&lt;/h2&gt;
-&lt;p&gt;DP는 문제를 최적화를 할 때, 사용을 주로 합니다. 불필요하게 다시 계산을 하는 일을 막아 주는 기능을 합니다.&lt;/p&gt;
-
-&lt;p&gt;예를 들어, 가장 기본 적인 Fibonacci(피보나치) 숫자를 구하는 경우를 생각해 봅시다. 여기서 가장 단순하게 생각할 수 있는 코드는 피보나치는&lt;/p&gt;
-
-&lt;p&gt;f(n) = f(n-1) + f(n-2) 즉 n번째 피보나치 숫자는 n-1번 째 피보나치 수와 n-2번 째 피보나치 수의 합과 같다 입니다.&lt;/p&gt;
-
-&lt;p&gt;이를 재귀 함수로 나타내면&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;입니다. 하지만 이와 같은 경우 치명적인 문제점이 있습니다. 10에 가까운 숫자를 가지고 직접 저 알고리즘을 나무 형태로 그리면서 따라가 보시기 바랍니다.&lt;/p&gt;
-
-&lt;p&gt;그럼 문제점을 찾으셨을 겁니다. 이미 무슨 값인지 계산했던 피보나치 수를 다시 계산을 하는 것을 보게 됩니다. 그래서 이 같은 경우 항상 O(2^n) 이라는 어마어마한 연산을 하여야 합니다.&lt;/p&gt;
-
-&lt;p&gt;이 경우를 최적화할 수 있는 기법이 DP입니다. 그리고 DP에는 두 가지 대표적인 구현 방법이 있습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;dp&quot;&gt;메모이제이션을 이용한 DP&lt;/h2&gt;
-&lt;p&gt;메모이제이션을 이용한 DP는 간단하게 말하면 이미 계산한 값은 기록을 해놔서 다시는 다시 계산을 안하도록 하는 것 입니다. 위의 코드에서 살짝만 바꾸면 최적화가 됩니다.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 기록해 두는 배열
-&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 첫 번째와 두 번째 피보나치는 1
-&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;위 코드를 보면 다음 줄들이 변경이 되었습니다.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1
-&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 2
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 3
-&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 4
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;우선 1번은 기록을 해놓기 위해서 선언한 배열입니다. 2번은 C++에서 레퍼런스입니다. 단순히 변수의 값을 카피하는 것이 아니라, 변수의 주소 자체를 카피를 해서 ret이 변하면 D[n]의 값도 바뀌도록 해주는 것 입니다.
-그리고 3번은 이미 계산을 한 상태면 D[n]의 값은 0이 아니므로 0이 아니면 이미 계산해 둔 값을 반환하도록 하는 것 입니다.
-그리고 4번이 중요한데, 4번은 재귀로 밑에 값을 계산을 하고 그 값을 ret에 저장하는 것 입니다.
-이렇게 코드를 짜면 겹치는 부분은 다시 연산하지 않게 됩니다.&lt;/p&gt;
-
-&lt;p&gt;이 경우에는 최악 경우에도 선언을 해둔 배열의 크기만큼만 연산을 합니다. 그래서 O(n) // n은 배열의 크기
-와 같은 시간 복잡도를 같습니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;dp-1&quot;&gt;반복문을 이용한 DP&lt;/h2&gt;
-&lt;p&gt;하지만 메모이제이션을 활용한 DP를 활용하지 못할 때도 있습니다. 함수의 깊이가 너무 깊어져서 Stack Overflow가 나거나, 반복문을 이용하는 것이 훨씬 간편할 때 입니다.&lt;/p&gt;
-
-&lt;p&gt;메모이제이션을 이용한 DP에서는 위에서 아래(Top-Down)로 진행을 했다면 반복문을 이용한 DP는 아래서 위로(Bottom-Up) 방식을 사용합니다.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 기록해 두는 배열
-&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nth_fibonacci&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 첫 번째와 두 번째 피보나치는 1
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;이렇게 어떻게 보면 메모이제이션 예제보다 더욱 간단하게 구현이 되었습니다. 그리고 함수를 계속 호출하지 않아서 메모리를 절약할 수도 있습니다. 실제로 약간 빠르기도 합니다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;마치며&lt;/h2&gt;
-
-&lt;p&gt;반복문을 이용한 DP에서 n번째 피보나치 수를 구할 때, 기록하는 배열을 모두 잡을 필요가 없습니다. 변수 3개를 한 스텝마다 갱신을 하면서 구해서 메모리를 더욱 절약할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;그리고 본격적인 DP문제는 다음 글부터 다루도록 하겠습니다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="dynamic programming" /><summary>DP(Dynamic Programming)?
-DP는 문제를 최적화를 할 때, 사용을 주로 합니다. 불필요하게 다시 계산을 하는 일을 막아 주는 기능을 합니다.</summary></entry><entry><title>제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기</title><link href="http://astrohsy.com/contest/scpc2016/" rel="alternate" type="text/html" title="제 2회 삼성 프로그래밍 경진대회(SCPC) 참가 후기" /><published>2016-09-13T00:00:00+09:00</published><updated>2016-09-13T00:00:00+09:00</updated><id>http://astrohsy.com/contest/scpc2016</id><content type="html" xml:base="http://astrohsy.com/contest/scpc2016/">&lt;h2 id=&quot;scpc&quot;&gt;SCPC&lt;/h2&gt;
-&lt;p&gt;삼성에서 개최하는 작년부터 개최하기 시작한 대학생과 대학원생이 참가 가능한 알고리즘 대회이다.
-1차와 2차는 온라인으로 진행되었고, 본선은 우면동에 위치한 삼성전자 건물에서 진행이 되었다.&lt;/p&gt;
-
-&lt;p&gt;나는 운이 좋게도 2차 예선에서 A, B와 C 부분 점수를 맞았는데 제출 횟수가 적어서인지 본선 진출 대상자가 되었다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;본선 대회 전&lt;/h2&gt;
-&lt;p&gt;대회가 진행하기 전에 대회장 앞에 여러 이벤트 부스들이 배치되어 있었다. 미니게임과 QR코드를 활용한 Quiz프로그램이 있었고, 기어s2와 다른 여러 상품을 제공하였다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/scpc1.jpg&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/scpc3.jpg&quot; alt=&quot;Image description&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;대회&lt;/h2&gt;
-&lt;p&gt;대회 문제는 확실히 1차, 2차 예선문제보다는 난이도가 있었다. 대회를 치르고 나서 아직 나는 아직 알고리즘 공부가 많이 부족하다는 것을 깨닳았다. 대회문제는 아마도 &lt;a href=&quot;http://codeground.org&quot;&gt;Codeground&lt;/a&gt;에 올라와 있을 것 이다.
-1번 마땅한 해결책이 생각나지 않아 2번 째, 테스트 그룹까지만 득점하였고, 2번 문제는 어떻게 푸는지는 알았는데, 코딩으로 옮기는 도중에 실수가 있었는지, 계속 부분점수만 받았다..&lt;/p&gt;
-
-&lt;p&gt;대회 끝나고 말들을 들어보니 내 접근이 맞았었다. 코딩으로 옮기는 연습이 더욱 필요한 것 같다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;대회 후&lt;/h2&gt;
-&lt;p&gt;30명 정도의 상위 득점자들의 수상식을 진행하고, 대회가 종료가 되었다. 삼성전자 신종균 대표이사가 대회를 찾아오셔서 많이 놀랐다. 세삼 이 대회가 큰 대회라는 것을 실감하였다.&lt;/p&gt;
-
-&lt;p&gt;대회가 끝나고, 대회에서 사용했던 청축식 기계식 키보드와 마우스패드 또, 키보드가 들어갈 수 있는 에코백을 주었다. 비록 올해는 좋은 성과를 거두지 못했지만, 다음에 기회가 된다면 더욱 열심히 해서 좋은 성과를 거두고 싶다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="scpc" /><summary>SCPC
-삼성에서 개최하는 작년부터 개최하기 시작한 대학생과 대학원생이 참가 가능한 알고리즘 대회이다.
-1차와 2차는 온라인으로 진행되었고, 본선은 우면동에 위치한 삼성전자 건물에서 진행이 되었다.</summary></entry><entry><title>SW개발병, 소프트웨어개발병 지원 후기</title><link href="http://astrohsy.com/life/sw-develop-soldier-interview/" rel="alternate" type="text/html" title="SW개발병, 소프트웨어개발병 지원 후기" /><published>2016-09-12T00:00:00+09:00</published><updated>2016-09-12T00:00:00+09:00</updated><id>http://astrohsy.com/life/sw-develop-soldier-interview</id><content type="html" xml:base="http://astrohsy.com/life/sw-develop-soldier-interview/">&lt;h2 id=&quot;section&quot;&gt;지원동기&lt;/h2&gt;
-&lt;p&gt;우연히 병무청 홈페이지를 둘러보았는데, S/W개발병 모집공고가 눈에 들어왔다. 군대 문제로 머리가 아팠던 나는 군대에서도 프로그래밍을 까먹지 않고, 오히려 더 배울 수 있다는 생각에 S/W개발병 서류 지원을 하게 되었다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;서류접수&lt;/h2&gt;
-&lt;p&gt;옛날과는 달리 S/W개발병 지원 자격이 많이 달라졌다. 그전에 SW개발병 후기로 올라온 글들을 보면 “자격증 소지자”나 “2년 이상 컴퓨터 관련 전공을 한 자” 였지만, 아마도 2016년도 1차 모집부터 지원자격이 다음과 같이 바겼다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MOU체결기관(소프트웨어 마에스트로, Best of Best)&lt;/li&gt;
-  &lt;li&gt;소프트웨어 경진대회 및 정보보안대회 수상자&lt;/li&gt;
-  &lt;li&gt;동아리나 연구실에서 SW프로젝트를 수행한 자&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;지원자격을 보면 많이 까다로워졌다. 아마도 그전 선발 방식에서는 SW개발 경험이 별로 없었던 사람들도 많이 선발이 되어서 문제가 되었나보다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;서류합격&lt;/h2&gt;
-&lt;p&gt;막 개학을 해서 정신이 없었던 나는 문자 한 통을 받았다. SW개발병 서류전형에 합격하였고, 용산역 부근으로 면접보러 오라는 문자였다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;면접&lt;/h2&gt;
-&lt;p&gt;새벽같이 기차를 타고 용산역 부근으로 면접을 치러 갔다. 면접을 여러 날로 나눠서 치는 것 같았다. 그리고 면접 시간 외 시간이 예상 했던 것보다 많이 길어서 당황했다. 심리 테스트를 보고 점심을 먹고 다시 면접을 보러 갔다.&lt;/p&gt;
-
-&lt;p&gt;돌아가서 좀 기달리자, 면접이 시작되었다. 면접관님들은 모두 5명 이였다. 지원자 4명이 같이 면접을 보러 들어갔다.&lt;/p&gt;
-
-&lt;p&gt;질문은 다음과 같은 것들이 나왔다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;안보관&lt;/li&gt;
-  &lt;li&gt;지원동기&lt;/li&gt;
-  &lt;li&gt;자기가 개발한 대표적인 소프트웨어 설명&lt;/li&gt;
-  &lt;li&gt;군대 생활 관련&lt;/li&gt;
-  &lt;li&gt;자기소개서를 보고 하는 질문&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;면접은 무난하게 끝나고 돌아왔다.
-면접같은 경우는 따로 준비할 필요는 없고, 자기가 개발한 소프트웨어에 대한 내용을 다시 한 번 상기시켜보면 충분할 것 같다.&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="군인" /><category term="sw개발병" /><category term="면접" /><summary>지원동기
-우연히 병무청 홈페이지를 둘러보았는데, S/W개발병 모집공고가 눈에 들어왔다. 군대 문제로 머리가 아팠던 나는 군대에서도 프로그래밍을 까먹지 않고, 오히려 더 배울 수 있다는 생각에 S/W개발병 서류 지원을 하게 되었다.</summary></entry><entry><title>최소공배수와 최대공약수 구하기</title><link href="http://astrohsy.com/algorithm/gcd/" rel="alternate" type="text/html" title="최소공배수와 최대공약수 구하기" /><published>2016-09-10T00:00:00+09:00</published><updated>2016-09-10T00:00:00+09:00</updated><id>http://astrohsy.com/algorithm/gcd</id><content type="html" xml:base="http://astrohsy.com/algorithm/gcd/">&lt;h2 id=&quot;section&quot;&gt;유클리드 호제법&lt;/h2&gt;
-&lt;p&gt;두 양의 정수 a, b에 대해서 b = aq + r (0 &amp;lt;= r &amp;lt; a)라 하면 a, b의 최대 공약수는 a, r의 최대 공약수와 같다는 원리이다.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;최대공약수를 구하는 방법&lt;/h2&gt;
-&lt;p&gt;유클리드 호제법으로 재귀와 반복문을 이용하여서 최대공약수(Greatest Common Divisor)를 구하는 알고리즘을 구현할 수 있다.&lt;/p&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;1.재귀함수를 이용한 구현&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;gcd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// b == 0이면 더 이상 최대공약수를 갖지 않기 때문에 a를 반환한다.
-&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gcd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// 유클리드 호제법을 활용하여서 a, b의 최대 공약수를 b, r(a%b)로 치환한다.
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;section-3&quot;&gt;2.반복문을 이용한 구현&lt;/h3&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;section-4&quot;&gt;최소공배수를 구하는 방법&lt;/h2&gt;
-&lt;p&gt;최소공배수(Least Common Multiple)는 최대공약수를 구하면 거의 다 구한 값이다. &lt;br /&gt;
-서로 곱한 값에서 공통이 부분만 제외해주면 된다.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// gcd는 a, b의 최대공약수이다.
-&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lcm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gcd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="gcd" /><category term="lcd" /><category term="최대공약수" /><category term="최소공배수" /><category term="유클리드호제법" /><summary>유클리드 호제법
-두 양의 정수 a, b에 대해서 b = aq + r (0 &amp;lt;= r &amp;lt; a)라 하면 a, b의 최대 공약수는 a, r의 최대 공약수와 같다는 원리이다.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://backlogtool.com/git-guide/kr/&quot;&gt;Backlogtool git-guide&lt;/a&gt; &amp;lt;- 강추!&lt;/p&gt;</content><author><name>   Hoseung</name><email>astrohsy@gmail.com</email></author><category term="github" /><category term="project" /><summary>최근 학교에서 강제로 Github를 쓰도록하고 있다… 그래서 이 포스트에선 깃허브를 배우면서 알게 된 기초적인 사용설명을 설명해보고자 한다.
+우선 왜 깃허브를 쓰는지에 대해 말하자면 프로젝트를 진행할 때, 반드시 프로젝트의 버전 관리를 하여야 한다. 그래야만 나중에 프로젝트 진행 중에 문제가 생길 시 되돌릴 수가 있고, 프로젝트가 어느 정도로 진행되었는지 알 수 있기 때문이다.</summary></entry></feed>
