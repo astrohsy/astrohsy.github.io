@@ -111,10 +111,10 @@ __global__ void mulKernel(int *c, const int *a, const int *b, int N) {
     */
     if( ROW < N && COL < N) {
         for(int k = 0; k<N; k++) {
-            sum += A[ROW * N + k] * B[k * N + COL];
+            sum += a[ROW * N + k] * b[k * N + COL];
         }
     }
-    C[ROW * N + COL] = sum;
+    c[ROW * N + COL] = sum;
 }
 {% endhighlight %}
 ## 출처
