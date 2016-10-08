@@ -32,7 +32,7 @@ title_separator          : "-"
 name                     : "Hoseung"
 description              : "참가한 대회와 알고리즘과 머신러닝에 대한 내용들을 올릴 생각입니다."
 #url: 'http://localhost:4000'
-url                      : "http://astrohsy.com"
+url                      : "https://astrohsy.com"
 baseurl                  : # "/blog"
 repository               : "astrohsy/astrohsy.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
