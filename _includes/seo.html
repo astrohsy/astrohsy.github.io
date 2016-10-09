@@ -5,9 +5,6 @@
 
 {% feed_meta %}
 
-<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
-<script type="text/javascript"> if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "10e87ae703d93c4"; wcs_do(); </script>
-
 <!-- begin SEO -->
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
@@ -155,4 +152,7 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
+
+<script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript"> if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "10e87ae703d93c4"; wcs_do(); </script>
 <!-- end SEO -->
