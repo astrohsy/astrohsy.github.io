@@ -16,18 +16,6 @@ layout: default
 
 <div id="main" role="main">
   {% include sidebar.html %}
-
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-          <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- 위에 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-1730995914378836"
-                 data-ad-slot="3126233903"
-                 data-ad-format="auto"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
@@ -63,17 +51,6 @@ layout: default
 
       {% include post_pagination.html %}
     </div>
-
-    <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <!-- 하단 -->
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-1730995914378836"
-           data-ad-slot="3015155906"
-           data-ad-format="auto"></ins>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
     {% if site.comments.provider and page.comment %}
       {% include comments.html %}
