@@ -1,8 +1,8 @@
 ---
-title: CUDA로 배워보는 병렬 프로그래밍(Parallel Programming) - 행렬(Matrix) 계산
+title: CUDA로 배우는 병렬 프로그래밍(Parallel Programming) - 행렬(Matrix) 계산
 categories: [Parallel]
 tags: [parallel, cuda]
-description: 병렬 프로그래밍의 기본적인 연산 방법 및 원리 및 행렬(Matrix)에 직접 적용
+description: 병렬 프로그래밍의 기본적인 연산 방법 및 원리 및 행렬(Matrix)에 직접 적용, 행렬 곱셈 및 행렬 덧셈
 date : 2016-10-01 22:00:00 +0900
 ---
 

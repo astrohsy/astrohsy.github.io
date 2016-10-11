@@ -2,7 +2,7 @@
 title: 동적계획법(Dynamic Programming) - 입문
 categories: [Algorithm]
 tags: [dynamic programming]
-description: 기본적인 1~2차원 다이나믹 프로그래밍에 대한 설명과 풀이
+description: 기본적인 1~2차원 다이나믹 프로그래밍(DP)에 대한 설명과 풀이, 점화식 세우기
 ---
 
 다이나믹 프로그래밍은 문제를 많이 풀어봐야지 느낌이 오는 것 같다. 그래서 이 글에서는 가장 기초적인 다이나믹 프로그램을 활용해야하는 문제에 내가 했던 접근을 설명할 생각이다.

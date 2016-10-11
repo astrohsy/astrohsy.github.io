@@ -2,7 +2,7 @@
 title: 깃허브(Github) 기초적인 사용법
 categories: [Github]
 tags: [github, project]
-description: 깃허브를 처음으로 사용하는 사람에게 기초적인 사용방법에 대한 설명 제공
+description: 깃허브를 처음으로 사용하는 사람에게 기초적인 사용방법에 대한 설명 제공, 초급
 ---
 
 최근 학교에서 강제로 Github를 쓰도록하고 있다... 그래서 이 포스트에선 깃허브를 배우면서 알게 된 기초적인 사용설명을 설명해보고자 한다.
