@@ -2,7 +2,7 @@
 title: 파이썬으로 배우는 다층 퍼셉트론(Multi-Layer Perceptron)
 categories: [AI]
 tags: [mlp, ai, machinelearning, python]
-description: 딥러닝(Deep Learning)의 시작인 다층 퍼셉트론(Multi-Layer Perceptron)의 개념 및 파이썬(Python)을 활용한 구현과 MNIST 데이터 분류(Classification)
+description: 인공지능(Artificial Intelligence, AI), 기계학습(Machine Learning, ML)에서 인공신경망 딥러닝(Deep Learning)의 시작인 다층 퍼셉트론(Multi-Layer Perceptron)의 개념 및 파이썬(Python)을 활용한 구현과 MNIST 데이터류(Classification)
 date : 2016-10-06 05:00:00 +0900
 ---
 
